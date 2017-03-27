@@ -1,111 +1,54 @@
-# rgbutterfly-tests (Swift)
-Unit and UI Testing in Swift with XCTest framework and Accessibility. Requirements include Xcode 7, OS X 10.11 El Capitan, and iOS 9 (or later versions). The test frameworks bridge into the 'RGButterfly' App (Objective-C)
+# RGButterflyDocs
 
-Dependencies: XCTest/XCTest.h (The XCTest file need to be added as a compile target to Tests under 'BuildPhases' for this to build)
+## The _RGButterfly_ Paint App Documentation
 
-Requirements for InitViewControllerTests:
-* There is Network Connectivity
-* The Jenkins server is running during the test
+This experimental free app (currently private) aims to help users find potential acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected 'match' algorithm against a database of reference paints and paint mixes.
 
-## General Structure
-* Bridging header (RGButterflyTests-Bridging-Header.h): Interfaces with the Objective-C RGButterfly application
-* Base Class (RGButterflyBaseTests.swift): Contains methods/assertions common to more than one controller test class.
-* Model (DataModelTests.swift): Datamodel unit tests (uses CoreData/ManagedObject)
-* Controllers: View Controllers unit tests (subclasses Base Class)
+## The Reference Data
 
-## Tests Common to All Controllers
+The Paint Swatch Database is currently comprised of over 2,500 paint references and mixes each of them created manually. For accuracy, 1 ml syringes were used to measure/dispense the paint and cotton swabs to carefully mix them (for this version, only two-color mixes were created though the App functionality supports using a 'mix' as reference for a three-way or multi-color mix)
 
-#### Datamodel Counts
-* Dictionary entities exist and have count greater than zero
-* Dictionary entities count matches initialization file count
-* Main entities exist and have count greater than zero (with exception of secondary keywords entities)
-* Greater than zero PaintSwatches and TapAreas are associated with a MatchAssociation
-* Number of TapAreas and PaintSwatches associated with a MatchAssociation are equal
+The paint was applied on acid-free, triple-primed white canvas paper in generally thick layers or 'Thick' as described in the canvas coverage property. Paint coverage might also be defined as 'Thin' or 'Sparse' (usually as a result of using less paint and/or transparent or translucent paints)
 
-#### Datamodel Relations
-* MixAssociations have more than zero children
-* All MixAssociationSwatches must be part of a MixAssociation
-* MatchAssociations have more than zero children
-* All TapAreas must be part of a MatchAssociation
-* All PaintSwatches must be associated with a PaintSwatchType (with exception of 'MatchAssoc')
-* All Keywords must be associated with a SwatchKeyword 
+After the paint swatches sheets were created they were photographed. For lighting consistency, this was done with pre-dominantly artificial light at the same time of day for each sheet and in a way that eliminated reflection as much as possible. Photographed swatches were then entered manually using the app 'mix' association feature and the individual properties of each swatch set in the App Detail view.
 
-#### Controllers
-* Controller can be instantiated with identifier
+## The Match Methodology
 
-#### Views
-* Main Controller View is not Nil
-* Main Controller View title is not Nil
+The user may apply seven algorithms to find one or more potential matches. Each algorithm compares the tap area against the database of swatches to yield a difference (d). The smaller the _d_ value the better the match is assumed to be. The algorithms, based on RGB and/or HSB color properties, are shown below:
 
-#### TableViews
-* Any TableView associated with the Controller is not Nil
-* Based on context, table view contains the correct number of sections
+* RGB only or default:
 
-#### Connections
-* All associated Segues are accessible
-* Views controllers are embedded in Navigation Controllers where applicable
-* Navigation Controllers have an associated identifier
-* Actions associated with item/view selectors exist and can be performed
-* Unwind Segues associated with item/view selectors exist and can be performed
-* IBOutlets associated with item/view are not Nil
-* Delegates associated with controller views
+   _d = sqrt((r2-r1)^2 + (g2-g1)^2 + (b2-b1)^2)_
 
-#### TitleView/NavBar/Toolbar Items
-* SearchBars/Buttons associated with the TitleView are not Nil
-* NavBar buttons exist and are associated with assigned tag value
-* Toolbar items exist and are associated with assigned tag value
-* Toolbar items are enabled/disabled based on context
-* Flexible/Fixed Space items accounted for
 
-## Controller-Specific Tests
+* HSB only:
 
-### InitViewController
-* Network Connectivity
-* REST API Connectivity
-* Activity Indicator label appears after 'viewDidAppear'
-* Activity Indicator is animating after 'viewDidAppear'
+   _d = sqrt((h2-h1)^2 + (s2-s1)^2 + (b2-b1)^2)_
 
-### MainViewController
-* Activity Indicator label appears after 'viewDidAppear'
-* Activity Indicator is animating after 'viewDidAppear'
-* Activity Indicator stops animating after 'viewDidDisappear'
-* Subjective Color Names dictionary is loaded with greater than zero entities
-* Keyword Index Titles array contains 26 elements (i.e., alphabet letters)
-* PaintSwatches count is greater than zero
-* CollectionViews associated with a tableView cell are not nil
-* CollectionViews have more than zero items
 
-_Performance Tests: Measure time to load each type of listing_
+* RGB and Hue:
 
-### PickerViewController
-_None not covered above_
+   _d = sqrt((r2-r1)^2 + (g2-g1)^2 + (b2-b1)^2 + (h2-h1)^2)_
 
-### ImageViewController
-* ScrollView can be accessed with identifier and is not Nil
-* ImageView can be accessed with identifier and is not Nil
 
-### AssocTableViewController
-_None not covered above_
+* RGB + HSB:
 
-### AddMixTableViewController
-_None not covered above_
+   _d = sqrt((r2-r1)^2 + (g2-g1)^2 + (b2-b1)^2 + (h2-h1)^2 + (s2-s1)^2 + (b2-b1)^2)_
 
-### MatchTableViewController
-_None not covered above_
 
-### SwatchTableViewController
-_None not covered above_
+* Weighted RGB:
 
-### SettingsViewController
-* tableView has the correct number of sections
-* Each tableView section has more than zero rows
+   _d = ((r2-r1)*0.30)^2 + ((g2-g1)*0.59)^2 + ((b2-b1)*0.11)^2_
 
-### AboutViewController
-_None not covered above_
 
-### DisclaimerViewController
-_None not covered above_
+* Weighted RGB + HSB:
 
-## Nice to Have Tests
-* Class delegates
-* Layout Constraints
+   _d = ((r2-r1)*0.30)^2 + ((g2-g1)*0.59)^2 + ((b2-b1)*0.11)^2 + (h2-h1)^2 + (s2-s1)^2 + (b2-b1)^2_
+
+
+* Hue only:
+
+   _d = sqrt((h2-h1)^2)_
+
+
+I found that though some of these algorithms (in particular the RGB method) consistently produce the best results others might perform better at different RGB/HSB ranges. The algorithms consistently produce better results matching darker colors than lighter ones so still working on improvements to these ranges. 
