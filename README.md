@@ -1,6 +1,6 @@
 # RGButterflyDocs
 
-## The _RGButterfly_ Paint App Documentation
+## The [_RGButterfly_](https://spineo.github.io/RGButterflyDocs/) Paint App Documentation
 
 This experimental free app (currently private) aims to help users find potential acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected 'match' algorithm against a database of reference paints and paint mixes.
 
