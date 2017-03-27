@@ -1,6 +1,8 @@
-This experimental free app (currently private) aims to help users find potential acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected 'match' algorithm against a database of reference paints and paint mixes.
+## About
 
-## The Reference Data
+This experimental free app (currently private) aims to help users find potential acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected _match algorithm_ against a database of reference paints and paint mixes.
+
+### The Reference Data
 
 The Paint Swatch Database is currently comprised of over 2,500 paint references and mixes each of them created manually. For accuracy, 1 ml syringes were used to measure/dispense the paint and cotton swabs to carefully mix them (for this version, only two-color mixes were created though the App functionality supports using a 'mix' as reference for a three-way or multi-color mix)
 
@@ -8,7 +10,7 @@ The paint was applied on acid-free, triple-primed white canvas paper in generall
 
 After the paint swatches sheets were created they were photographed. For lighting consistency, this was done with pre-dominantly artificial light at the same time of day for each sheet and in a way that eliminated reflection as much as possible. Photographed swatches were then entered manually using the app 'mix' association feature and the individual properties of each swatch set in the App Detail view.
 
-## The Match Methodology
+### The Match Methodology
 
 The user may apply seven algorithms to find one or more potential matches. Each algorithm compares the tap area against the database of swatches to yield a difference (d). The smaller the _d_ value the better the match is assumed to be. The algorithms, based on RGB and/or HSB color properties, are shown below:
 
@@ -47,4 +49,4 @@ The user may apply seven algorithms to find one or more potential matches. Each 
    _d = sqrt((h2-h1)^2)_
 
 
-I found that though some of these algorithms (in particular the RGB method) consistently produce the best results others might perform better at different RGB/HSB ranges. The algorithms consistently produce better results matching darker colors than lighter ones so still working on improvements to these ranges.
+I found that though some of these algorithms (in particular the RGB method) consistently produce the best results others might perform slightly better at different RGB/HSB ranges. All algorithms do consistently produce better results matching darker colors than lighter ones so I am still working on improvements to the accuracy, in particular, relating to lighter values.
