@@ -10,13 +10,7 @@ The three main tasks this App performs are Image Match against the reference dat
 
 A new photo can be taken or existing image used for the Image Match.
 
-<table>
-<tr>
-<td><img src="images/MatchImageView_Fish.png" width="179" height="347.2"></td>
-<td><img src="images/MatchView_Fish.jpg" width="179" height="347.2"></td>
-<td><img src="images/DetailView_Fish.jpg" width="179" height="347.2"></td>
-</tr>
-</table>
+![MatchViews](images/MatchViews.jpg)
 
 ### Data Capture
 
