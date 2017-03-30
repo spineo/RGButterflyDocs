@@ -8,7 +8,7 @@ The three main tasks this App performs are _Reference & Search_, _Image Area(s) 
 
 ### Reference & Search
 
-The Initial View allows a user to switch between the five types of displays (shown in the screenshots below):
+The Initial View allows a user to switch between the five types of displays (shown in the screenshots that follow):
 * __Color Associations__: An ordered list of collections each representing a _Mix Association_
 * __Match Associations__: An ordered list of collections each representing a _Match Association_
 * __Individual Colors__: An ordered list of individual colors (mainly reference and mix paint swatches)
@@ -23,6 +23,11 @@ Rotating to landcape, as shown below, makes it easier to read the full names. In
 
 ![All Portrait and Landscape](images/All_Port_and_LandView.jpg)
 
+The _Keywords Listing_ (first screenshot below) allows users to search for keywords and associated references and/or mixes. The _Subjective Colors_ listing (second screenshot) exposes colors organized by group. In this view, the elements of one or more groups can be exposed by clicking on the corresponding collapse/uncollapse up/down arrow widget (as shown below) or, alternatively, all groups can be collapsed/uncollapsed clicking on the top arrow widget on the Navigation Toolbar.
+
+![Keyw and Subj Views](images/Keyw_and_SubjViews.jpg)
+
+All listings, with the exception of _Subjective Colors_ are alphabetized and include the top-right hourglass __Search__ (search rules vary with each listing). In addition, the _Individual Colors_ and _Keywords Listing_ also provide an __Alphabetical Index__ for quicker access.
 
 ### Image Area(s) Match
 
