@@ -29,13 +29,16 @@ The _Keywords Listing_ (first screenshot below) allows users to search for keywo
 
 All listings, with the exception of _Subjective Colors_ are alphabetized and include the top-right hourglass __Search__ (search rules vary with each listing). In addition, the _Individual Colors_ and _Keywords Listing_ also provide an __Alphabetical Index__ for quicker access.
 
-### Image Area(s) Match
+### Image Area(s) Match Data Capture
 
-A new photo can be taken or and existing image used for the Image Match.
+A new photo can be taken or and existing image used for the Image Match. Screenshots below show the general sequence for this type of data capture.
 
 ![MatchViews](images/MatchViews.jpg)
 
 
-### Paints Data Capture
+### Manual Paints Data Capture
 
+Photographed paint swatch areas can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. The more detailed session used for this type of data capture can be found [here](content/DataCapture.md)
+
+![DataCapture](images/ManualDataCapture.jpg)
 
