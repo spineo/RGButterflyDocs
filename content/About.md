@@ -1,6 +1,6 @@
 ## About
 
-This experimental App (currently private) I have worked during my free time aims to help users find potential acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes.
+This experimental App (currently private) I have worked on during my free time aims to help users find potential acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes.
 
 ### The Reference Data
 
