@@ -38,7 +38,7 @@ A new photo can be taken or and existing image used for the Image Match. Screens
 
 ### Paints Data Capture
 
-Photographed paint swatch areas can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. A more detailed session used for this type of data capture can be found [here](content/DataCapture.md)
+Photographed paint swatch areas can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. The _Add Color Mix_ feature existing reference colors to the mix. A more detailed session used for this type of data capture can be found __[here](content/DataCapture.md)__
 
 ![DataCapture](images/ManualDataCapture.jpg)
 
