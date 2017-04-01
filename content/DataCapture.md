@@ -22,10 +22,13 @@ ___Note: Reference and Mix colors need to be in the desired order when applying 
 
 The next step (screenshot 1 below), is to optionally add additional properties to the Mix Association. We can now revisit the _Canvas Coverage_ and set this value to "Thick". The "Association Name" was automatically created during the rename step but it can be optionally modified. Finally, "Association Keywords" and an "Association Description" can also be set (though we will leave them empty). With our target fields/selections set we can now tap on the _Done_ button and select "Save Changes" (screenshot 2).
 
-It is important to note that each color mix in our association has an associated detail object automatically created. In addition, this object inherits both the _Association Type_ and _Canvas Coverage_ properties (of course, either property can be overriden if needed)
+It is important to note that each color mix in our association has an associated detail object automatically created. In addition, this object inherits the _Mix Name_, _Association Type_ and _Canvas Coverage_ properties (of course, any of these properties can be overriden but that is typically not desired)
 
-Clicking on the '>' to the right of an association will bring up the _Swatch Detail View_ (screenshots 3 & 4). Notice that in this view the _Canvas Coverage_ and _Swatch Type_ are already set (as inherited by the parent Mix) but we will set the _Subjective Color_ from the pull down (there is also a suggested "Hue" value that is automatically computed from the Color Wheel values).
+Clicking on the '>' to the right of an association will bring up the _Swatch Detail View_ (screenshots 3 & 4). Notice that in this view the _Paint Swatch and Name_, _Canvas Coverage_ and _Swatch Type_ are already set (as inherited by the parent Mix) but we will set the _Subjective Color_ from the pull down (there is also a suggested "Hue" value that is automatically computed from the Color Wheel values). Note that there is also a _Keywords_ fields. Typically, this field is left empty during this process as these keywords are typically associated a Match Tap Area. 
 
-![Data Capture Detaisl](../images/DataCapture_Details.jpg)
+![Data Capture Details](../images/DataCapture_Details.jpg)
 
+We are now ready to complete the process in our Data Capture Session. We first click on the _Done_ button and an Alert will give us the option to "Save Changes" (screenshot 1) assuming anything has changed. After saving, we can go back to our association view (by clicking the "<" button on the top left). As shown on screenshot 2 we will make some minor changes to the "Association Name" by adding a " Test" at the end (since an association already exists with this name) and save our changes. Finally, we can click on the home button (bottom left) which will takes us back to the Main View. If not already selected, we can now click on the list icon (bottom middle) and select "Color Associations". Clicking on the Search icon (top left) we can search for our new association by name and confirm that it is listed.  
+
+![Data Capture Save](../images/DataCapture_Save.jpg)
 
