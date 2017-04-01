@@ -20,4 +20,12 @@ ___Note: Reference and Mix colors need to be in the desired order when applying 
 
 ![Data Capture Ratios](../images/DataCapture_Ratios.jpg)
 
+The next step (screenshot 1 below), is to optionally add additional properties to the Mix Association. We can now revisit the _Canvas Coverage_ and set this value to "Thick". The "Association Name" was automatically created during the rename step but it can be optionally modified. Finally, "Association Keywords" and an "Association Description" can also be set (though we will leave them empty). With our target fields/selections set we can now tap on the _Done_ button and select "Save Changes" (screenshot 2).
+
+It is important to note that each color mix in our association has an associated detail object automatically created. In addition, this object inherits both the _Association Type_ and _Canvas Coverage_ properties (of course, either property can be overriden if needed)
+
+Clicking on the '>' to the right of an association will bring up the _Swatch Detail View_ (screenshots 3 & 4). Notice that in this view the _Canvas Coverage_ and _Swatch Type_ are already set (as inherited by the parent Mix) but we will set the _Subjective Color_ from the pull down (there is also a suggested "Hue" value that is automatically computed from the Color Wheel values).
+
+![Data Capture Detaisl](../images/DataCapture_Details.jpg)
+
 
