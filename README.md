@@ -38,7 +38,19 @@ A new photo can be taken or and existing image used for the Image Match. Screens
 
 ### Paints Data Capture
 
-Photographed paint swatch areas can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. The _Add Color Mix_ feature existing reference colors to the mix. A more detailed session used for this type of data capture can be found __[here](content/DataCapture.md)__
+Photographed paint swatch areas can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. The _Add Color Mix_ feature allows users to add existing reference colors to the mix. A more detailed session used for this type of data capture can be found __[here](content/DataCapture.md)__.
 
 ![DataCapture](images/ManualDataCapture.jpg)
+
+### Settings
+
+The Settings Screen accessible from the gear button (bottom right on most views) allows a number of App Customizations including:
+* Checks for Database Updates (which allows users to perform updates when available)
+* Optionally setting Paint Swatches and/or Mix Associations to Read-Only
+* Changing the default shape (i.e., circle or rectangle) and size of a tap area
+* Changing the number of tap area matches displayed
+* Displaying Paint Swatches as captured or rendered by RGB value
+* Entering the _Mix Ratios Set(s)_ used for data capture
+* Turn Off Alerts
+* Set the default Initial View
 
