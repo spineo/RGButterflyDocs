@@ -23,7 +23,7 @@ Rotating to landcape, as shown below, makes it easier to read the full names. In
 
 ![All Portrait and Landscape](images/All_Port_and_LandView.jpg)
 
-The _Keywords Listing_ (first screenshot below) allows users to search for keywords and associated references and/or mixes. The _Subjective Colors_ listing (second screenshot) exposes colors organized by group. In this view, the elements of one or more groups can be exposed by clicking on the corresponding collapse/uncollapse up/down arrow widget (as shown below) or, alternatively, all groups can be collapsed/uncollapsed clicking on the top arrow widget on the Navigation Toolbar.
+The _Keywords Listing_ (first two screenshots below) allows users to search for keywords and associated references and/or mixes. The _Subjective Colors_ listing (third screenshot) exposes colors organized by group. In this view, the elements of one or more groups can be exposed by clicking on the corresponding collapse/uncollapse up/down arrow widget (as shown below) or, alternatively, all groups can be collapsed/uncollapsed clicking on the top arrow widget on the Navigation Toolbar.
 
 ![Keyw and Subj Views](images/Keyw_and_SubjViews.jpg)
 
@@ -54,3 +54,6 @@ The Settings Screen accessible from the gear button (bottom right on most views)
 * Turn Off Alerts
 * Set the default Initial View
 
+The screenshots below capture the _Settings_ view
+
+![Settings](images/Settings.jpg)
