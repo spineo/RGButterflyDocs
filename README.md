@@ -2,9 +2,9 @@
 
 ## The [_RGButterfly_](https://spineo.github.io/RGButterflyDocs/) Paint App Documentation
 
-![RGButterfly Logo](images/RGButterfly_Logo.png) This main purpose of this experimental App is to help users find potential acrylic color paint matches associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes. More about the reference data and methodology can be found __[here](About.md)__.
+![RGButterfly Logo](images/RGButterfly_Logo.png) This main purpose of this experimental App is to help users find potential Acrylic color paint matches associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes. More about the _Reference Data and Methodology_ can be found __[here](About.md)__ and please read the _Disclaimer_ section [here](Disclaimer.md).
 
-The three main tasks this App performs are _Reference & Search_, _Image Area(s) Match_ against a reference database, and the _Paints Data Capture_.
+The three main tasks this App performs are ___Reference & Search___, ___Image Area(s) Match___ against a reference database, and the ___Paints Data Capture___.
 
 ### Reference & Search
 
@@ -23,7 +23,7 @@ Rotating to landcape, as shown below, makes it easier to read the full names. In
 
 ![All Portrait and Landscape](images/All_Port_and_LandView.jpg)
 
-The _Keywords Listing_ (first two screenshots below) allows users to search for keywords and associated references and/or mixes. The _Subjective Colors_ listing (third screenshot) exposes colors organized by group. In this view, the elements of one or more groups can be exposed by clicking on the corresponding collapse/uncollapse up/down arrow widgets (as shown below) or, alternatively, all groups can be collapsed/uncollapsed clicking on the arrow widget on the top Navigation Toolbar.
+The _Keywords Listing_ (first two screenshots below) allows users to search for keywords and associated references and/or mixes. The _Subjective Colors_ listing (third screenshot) categorizes colors into groups (similar to the _Color Wheel_). In this view, the elements of one or more groups can be revealed/hidden by clicking on the corresponding down/up arrow widgets (as shown below) or, alternatively, all groups can be revealed/hidden clicking on the arrow widget on the top Navigation Toolbar.
 
 ![Keyw and Subj Views](images/Keyw_and_SubjViews.jpg)
 
@@ -38,21 +38,21 @@ A new photo can be taken or and existing image used for the Image Match. The scr
 
 ### Paints Data Capture
 
-Photographed paint swatch areas can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. The _Add Color Mix_ feature allows users to add existing reference colors to the mix. A more detailed session used for this type of data capture can be found __[here](DataCapture.md)__.
+Photographed paint swatch areas can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. The _Add Color Mix_ feature (screenshots 2 & 3) allows users to add existing reference colors to the mix. A more detailed session used for this type of data capture can be found __[here](DataCapture.md)__.
 
 ![DataCapture](images/ManualDataCapture.jpg)
 
 ### Settings
 
-The Settings Screen accessible from the gear button (bottom right on most views) allows a number of App Customizations including:
+The Settings Screen accessible from the gear button (bottom right on most views) allows a number of Global App Customizations including:
 * Checks for Database Updates (which allows users to perform updates when available)
-* Optionally setting Paint Swatches and/or Mix Associations to Read-Only
+* Optionally setting Paint Swatches and/or Mix Associations to Read-Only for protection
 * Changing the default shape (i.e., circle or rectangle) and size of a tap area
 * Changing the number of tap area matches displayed
-* Displaying Paint Swatches as captured or rendered by RGB value
+* Displaying Paint Swatches as captured or alternatively, rendered by RGB value
 * Entering the _Mix Ratios Set(s)_ used for data capture
-* Turn Off Alerts
-* Set the default Initial View
+* Turning Off Alerts
+* Setting the default Initial View
 
 The screenshots below capture the _Settings_ view
 
@@ -60,4 +60,4 @@ The screenshots below capture the _Settings_ view
 
 ### Future Directions
 
-For questions about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
+For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
