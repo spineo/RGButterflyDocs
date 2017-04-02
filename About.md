@@ -1,14 +1,17 @@
-## About
+
+ ## The Reference Data and Match Methodology
  
 ![RGButterfly Logo](images/RGButterfly_Logo.png) This experimental App (currently private) grew out of my interest in painting and aims to help users find acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes.
 
 ### The Reference Data
 
-The Paint Swatch Database is currently comprised of about 2,500 paint references and mixes each of them created manually. For accuracy, 1 ml syringes were used to measure/dispense the paint and cotton swabs to carefully mix them (for this version, only two-color mixes were created though the App functionality supports using a 'mix' as reference for a three-way or multi-color mix)
+The Paint Swatch Database is currently comprised of about 2,500 paint references and mixes each of them created manually (screenshots below show three sample sheets). For accuracy, 1 ml syringes were used to accurately measure/dispense the paint and cotton swabs to carefully mix them (for this version, only two-color mixes were created though the App functionality supports using a "mix" as reference for a three-way or multi-color mix)
 
-The paint was applied on acid-free, triple-primed white canvas paper in generally thick layers or _Thick_ as described in the canvas coverage property. Paint coverage might also be specified as _Thin_ or _Sparse_ (usually the result of using less paint and/or transparent or translucent paints)
+![Sample Paint Swatches](images/ColorSheets.jpg)
 
-After the paint swatches sheets were created they were photographed. For lighting consistency, this was done with pre-dominantly artificial light, at the same time of day for each sheet, and in a way that eliminated reflection as much as possible. Photographed swatches were then entered manually using the app _Mix Association_ feature and the individual properties of each swatch set in the App _Detail View_ (and example data capture session is shown __[here](DataCapture.md)__)
+The paint was applied on acid-free, triple-primed white canvas paper in generally thick layers or _Thick_ as set in the "Canvas Coverage" property. Paint coverage might also be specified as _Thin_ or _Sparse_ (these latter two categories usually the result of using less paint and/or transparent or translucent paints)
+
+After the paint swatches sheets were created they were photographed. For lighting consistency, this was done with pre-dominantly artificial light, at the same time of day for each sheet, and in a way that eliminated reflection as much as possible. Photographed swatches were then entered manually using the app _Mix Association_ feature and the individual properties of each swatch set in the App _Paint Swatch Detail_ View (and example data capture session is shown __[here](DataCapture.md)__)
 
 ### The Match Methodology
 
@@ -49,4 +52,4 @@ The user may apply seven algorithms to find one or more potential matches. Each 
    _d = sqrt((h2-h1)^2)_
 
 
-I found that though some of these algorithms (in particular the RGB method) consistently produce the best results others might perform slightly better at different RGB/HSB ranges. All algorithms do consistently produce better results matching darker colors than lighter ones so I am still working on improvements to the accuracy, in particular, relating to lighter values.
+I found that though some of these algorithms (in particular the RGB method) consistently produced the best results others might perform slightly better at different RGB/HSB ranges. All algorithms do consistently produce better results matching darker colors than lighter ones so I am still working on improvements to the accuracy, in particular, relating to lighter values.
