@@ -25,13 +25,13 @@ At this point we are ready look at some more detailed information about our matc
 
 In this view the top row is stationary and contains the tap area thumbnail (left item) and a sub-section of the larger image that includes the tap area for context (right item). The remaining scrollable rows represent the returned _Paint Swatches_ associated with the _Tapped Area_ in the order best match at the top (as applied by the selected algorithm).
 
-Note that by default, the middle button in the bottom toolbar displays "Areas". Clicking on this button allows us to instantly page through all the tap areas associated with the image by using the adjascent arrows (see last set of screenshots for an example). In screenshot 2, we have changed the value of this button to "Match" which allows us to _apply the various algorithms to a single tap area_ using the adjascent arrows (in this specific example we went from _RGB Only_ to _RGB+Hue_ which produced the same results, at least for the top matches)
+Note that by default, the middle button in the bottom toolbar displays "Areas". In this setting we are able to instantly page through all the tap areas associated with the image by using the adjascent arrows (see last set of screenshots for an example). In screenshot 2, we have changed the value of this button to "Match" which allows us to instead test the various algorithms against a single tap area using the same adjascent arrows (in this specific example we changed from _RGB Only_ to _RGB+Hue_ which, at least for the top matches, produced the same results)
 
-Notice also that by clicking on the "Pallete" icon (bottom left) we changed it to "RGB" which now renders all swatches by their corresponding RGB values.
+Notice also that by clicking on the "Pallete" icon (bottom left) we changed it's text to "RGB" which results in rendering all swatches using their corresponding RGB color values instead of paint thumbnail.
 
-Finally, by long-pressing on a swatch we can instantly enlarge it for easier comparison against the reference tapped area.
+Finally, by long-pressing out top swatch we can instantly enlarge it for easier comparison against the reference tapped area.
 
-Screenshots 3 & 4 show the Swatch Detail view in this case, accessed by clicking on our top match row. It is here, if match turns out to be a good one, where we would want to include keywords associated with the Paint Swatch.
+Screenshots 3 & 4 show the _Swatch Detail_ view in this case, accessed by clicking on our top match row. It is here, if match turns out to be a good one, where we would want to add keywords associated with the Paint Swatch (which would instantly be integrated into our _Keywords Listing_)
 
 ![Match Detail](images/MatchDetail.jpg)
 
