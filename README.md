@@ -29,9 +29,9 @@ The _Keywords Listing_ (first screenshot below) allows users to search for keywo
 
 All listings, with the exception of _Subjective Colors_ are alphabetized and include the top-right hourglass __Search__ (search rules vary with each listing). In addition, the _Individual Colors_ and _Keywords Listing_ also provide an __Alphabetical Index__ for quicker access.
 
-### Image Area(s) Match Data Capture
+### Image Area(s) Match
 
-A new photo can be taken or and existing image used for the Image Match. Screenshots below show the general sequence for this type of data capture. A more detailed session can be found __[here](ImageMatch.md)__.
+A new photo can be taken or and existing image used for the Image Match. Screenshots below show the general sequence for this type of data capture. More detailed examples of this functionalithy can be found __[here](ImageMatch.md)__.
 
 ![MatchViews](images/MatchViews.jpg)
 
