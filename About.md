@@ -1,6 +1,6 @@
 ## About
  
-![RGButterfly Logo](../images/RGButterfly_Logo.png) This experimental App (currently private) grew out of my interest in painting and aims to help users find acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes.
+![RGButterfly Logo](images/RGButterfly_Logo.png) This experimental App (currently private) grew out of my interest in painting and aims to help users find acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes.
 
 ### The Reference Data
 
