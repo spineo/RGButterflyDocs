@@ -2,7 +2,7 @@
 
 ## The [_RGButterfly_](https://spineo.github.io/RGButterflyDocs/) Paint App Documentation
 
-![RGButterfly Logo](images/RGButterfly_Logo.png) This experimental App aims to help users find potential acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected _match algorithm_ against a database of reference paints and paint mixes. More about the reference data and methodology can be found __[here](content/About.md)__.
+![RGButterfly Logo](images/RGButterfly_Logo.png) This experimental App aims to help users find potential acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected _match algorithm_ against a database of reference paints and paint mixes. More about the reference data and methodology can be found __[here](About.md)__.
 
 The three main tasks this App performs are _Reference & Search_, _Image Area(s) Match_ against a reference database, and the _Paints Data Capture_.
 
@@ -38,7 +38,7 @@ A new photo can be taken or and existing image used for the Image Match. Screens
 
 ### Paints Data Capture
 
-Photographed paint swatch areas can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. The _Add Color Mix_ feature allows users to add existing reference colors to the mix. A more detailed session used for this type of data capture can be found __[here](content/DataCapture.md)__.
+Photographed paint swatch areas can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. The _Add Color Mix_ feature allows users to add existing reference colors to the mix. A more detailed session used for this type of data capture can be found __[here](DataCapture.md)__.
 
 ![DataCapture](images/ManualDataCapture.jpg)
 
