@@ -51,7 +51,7 @@ The Settings Screen accessible from the gear button (bottom right on most views)
 * Changing the number of tap area matches displayed
 * Displaying Paint Swatches as captured or alternatively, rendered by RGB value
 * Entering the _Mix Ratios Set(s)_ used for data capture
-* Turning Off Alerts
+* Turning Off Informational Alerts
 * Setting the default Initial View
 
 The screenshots below capture the _Settings_ view
