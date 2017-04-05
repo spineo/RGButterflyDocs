@@ -58,6 +58,12 @@ The screenshots below capture the _Settings_ view
 
 ![Settings](images/Settings.jpg)
 
+### Access and Alerts
+
+Access pertains to Camera, Photo Library, and Internet. Alerts cover a variety of use cases (though most are informational alerts). More information on Access and Alerts can be found __[here](AccessAndAlerts.md)__.  
+
+
+
 ### Future Directions
 
 For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
