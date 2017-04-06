@@ -1,10 +1,14 @@
-## Access and Alerts
- 
-![RGButterfly Logo](images/RGButterfly_Logo.png) This section briefly discusses Access and Alerts
+## Privacy, Access and Alerts
+
+![RGButterfly Logo](images/RGButterfly_Logo.png) This section briefly discusses Privacy, Access and Alerts
+
+### Privacy
+
+The RGButterfly App does not store user or location information.
 
 ### Camera and Photo Library Access
 
-To ensure access to the Camera or Photo Library by the RGButterfly App, Privacy Settings must be turned on (screenshot 1 below). This option is usually provided in the form of an alert the first time user attempts to access these components.
+To ensure access to the Camera or Photo Library by the RGButterfly App, Privacy Settings must be turned on (screenshot below). This option is usually provided in the form of an alert the first time user attempts to access these components.
 
 ![Privacy Settings](images/PrivacySettings.jpg)
 
