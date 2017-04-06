@@ -58,9 +58,9 @@ The screenshots below capture the _Settings_ view
 
 ![Settings](images/Settings.jpg)
 
-### Access and Alerts
+### Privacy, Access and Alerts
 
-Access pertains to Camera, Photo Library, and Internet. Alerts cover a variety of use cases (though most are informational alerts). More information on Access and Alerts can be found __[here](AccessAndAlerts.md)__.  
+This App does not store user or location information. Specific privacy settings must be enabled in order to access the Camera or Photo Library. Alerts cover a variety of use cases (though most alerts are informational). More information on Access and Alerts can be found __[here](AccessAndAlerts.md)__.  
 
 
 
