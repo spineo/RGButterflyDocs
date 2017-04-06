@@ -2,7 +2,7 @@
 
 ## The [_RGButterfly_](https://spineo.github.io/RGButterflyDocs/) Paint App Documentation
 
-![RGButterfly Logo](images/RGButterfly_Logo.png) This main purpose of this experimental App is to help users find potential Acrylic color paint matches associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes. More about the _Reference Data and Methodology_ can be found __[here](About.md)__ and please read the _Disclaimer_ section __[here](Disclaimer.md)__.
+![RGButterfly Logo](images/RGButterfly_Logo.png) This main purpose of this experimental App is to help users find potential Acrylic color paint matches associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes. More about the _Reference Data and Methodology_ can be found [__here__](About.md) and please read the _Disclaimer_ section [__here__](Disclaimer.md). The [__Programming Considerations__](Programming.md) section gives an overview of the program structure and development.
 
 The three main tasks this App performs are ___Reference & Search___, ___Image Area(s) Match___ against a reference database, and the ___Paints Data Capture___.
 
@@ -62,8 +62,12 @@ The screenshots below capture the _Settings_ view
 
 This App does not store user or location information. Specific privacy settings must be enabled in order to access the Camera or Photo Library. Alerts cover a variety of use cases (though most alerts are informational). More information on Access and Alerts can be found __[here](AccessAndAlerts.md)__.  
 
+### Programming Considerations
 
+[__This__](Programming.md) section gives an overview of the program structure and development process.
 
 ### Future Directions
+
+There are several bullet points to be added.
 
 For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
