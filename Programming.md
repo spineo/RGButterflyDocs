@@ -17,3 +17,5 @@ The experience of using XCode for App development has been largely positive and 
 ### Structure
 
 The main project (currently private) integrates a number of private GitHub repos as well as libraries from the [_IOS Utilities_](https://github.com/spineo/ios-utilities), [_IOS Algorithms_](https://github.com/spineo/ios-algorithms), [_IOS Custom Cells_](https://github.com/spineo/ios-custom-cells), and [_RGButterfly Tests (Swift)_]( https://github.com/spineo/rgbutterfly-tests) public repos. Over time, as I refactored the code, it made sense create these separate frameworks of potentially resuable code (the plan is to eventually make all repos public). The down side of this approach has been needing to now integrate more than one GitHub repo into the application (something that is fortunately automatically done in XCode) and tagging the many repos. Since I have been the only developer on this project, I have generally worked off of the _Master_ branch except for a few occasions earlier on.
+
+### Design and Data Model
