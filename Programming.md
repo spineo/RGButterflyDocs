@@ -8,11 +8,11 @@ The App is currently implemented to run on ___iPhone___ devices ([_iOS_](https:/
 
 ### Language
 
-Work started on this application back in 2014, shortly after I got into iOS development. Though Apple was just switching to  the [_Swift_](https://developer.apple.com/swift/) programming language, I decided to continue implementing in [_Objective-C_](https://en.m.wikipedia.org/wiki/Objective-C) as, at the time, Swift was still relatively untested and provided fewer online resources. Apple was also expected to continue support for Objective-C into the forseeable future and, more importantly, Swift design allowed its libraries to be easily integrated into Objective-C applications making postponing such transition to a later date easier (a move that I have already started doing)
+Work started on this application back in 2014, shortly after I got into iOS development. Though Apple was just switching to the [_Swift_](https://developer.apple.com/swift/) programming language, I decided to continue implementing in [_Objective-C_](https://en.m.wikipedia.org/wiki/Objective-C) since, at the time, Swift was still relatively untested and provided fewer online resources. Fortunately Apple was expected to continue supporting Objective-C into the forseeable future and, more importantly, the Swift design allowed its libraries to be easily integrated into Objective-C applications allowing for a gradual transition (I have since started going in this direction)
 
 ### XCode IDE
 
-The experience of using XCode for App development has been largely positive and I have personally found this IDE to be superior to many of the others I have used in the past including Eclipse and IntelliJ. It took a while gettings used to Objective-C and the many IDE abstractions (such as XCode _groups_ used to structure the App components) especially coming from a Software Engineering background where much of my works was backend, often at the Linux OS level, and in most cases using scripting/interpretive languages.
+The experience of using XCode for App development has been largely positive and I have personally found this IDE to be superior to many of the others I have used in the past including Eclipse and IntelliJ. It took a while gettings used to Objective-C and the many IDE abstractions (such as XCode _groups_ used to structure the App components) especially coming from a Software Engineering background where much of my work was backend, often at the Linux OS level, and in many cases using scripting/interpretive languages.
 
 ### Structure
 
