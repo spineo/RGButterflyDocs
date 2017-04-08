@@ -2,4 +2,4 @@ theme: jekyll-theme-cayman
 title: "RGButterfly"
 name: "Stuart Pineo"
 description: "Find Paint Swatches associated with Areas in a Photo"
-keywords: paints, acrylics, rgb, hsb, match
+keywords: paint, acrylics, color, color-match, photo-swatch, paints-match, rgb, hsb, match, rgbutterfly, reference-paints
