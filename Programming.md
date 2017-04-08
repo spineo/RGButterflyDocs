@@ -18,4 +18,16 @@ The experience of using XCode for App development has been largely positive and 
 
 The main project (currently private) integrates a number of private GitHub repos as well as libraries from the [_IOS Utilities_](https://github.com/spineo/ios-utilities), [_IOS Algorithms_](https://github.com/spineo/ios-algorithms), [_IOS Custom Cells_](https://github.com/spineo/ios-custom-cells), and [_RGButterfly Tests (Swift)_]( https://github.com/spineo/rgbutterfly-tests) public repos. Over time, as I refactored the code, it made sense create these separate frameworks of potentially resuable code (the plan is to eventually make all repos public). The down side of this approach has been needing to now integrate more than one GitHub repo into the application (something that is fortunately automatically done in XCode) and tagging the many repos. Since I have been the only developer on this project, I have generally worked off of the _Master_ branch except for a few occasions earlier on.
 
-### Design and Data Model
+### App Design
+
+Several months were spend on the _App Design_. The process essentially involved four sequential steps:
+
+1. ___Design the initial Wire Diagram___: The 'Wire Diagram' was a schematic on a large whiteboard drawn using dry erase markers. While the diagram did not take long to complete (maybe about an hour) it was the result of weeks of brainstorming and successfully captured my initial vision.
+
+2. ___Detail the Main Features___: This step involved jotting down in a spreadsheet the key features I wanted to implement. I often refered to this document while implementing the _Proof of Concept (POC)_ outlined below.
+
+2. ___Implement a Proof of Concept___: My first questions was _Can the key features be implemented and produce the expected results?_ The best way to find out was to implement a simple POC that integrated a number of features and especially the _Match Algorithms_. The POC was targetted to run on my _iPad_ and, though buggy, it generated the results I expected and lay the ground work for the next step. 
+
+3. ___Design the Prototype and Mockups___: By now I just about knew exactly what I wanted but instead of diving into the implementation, I decided that creating a prototype and mockups would allow me to more easily tweek with the UI and function without incurring the development overhead. For this I turned to [___AppCooker___](https://itunes.apple.com/us/app/appcooker-prototyping-mockup-studio-for-ios/id418861662?mt=8), a prototyping/mockup App for the iPad. The $20 I invested on this App was well worth the cost. The tool allowed me to create the interactive framework that I was looking for while laying out many of the UI elements that eventually made it to the App. Even though I spent several weeks prototyping, the end result provided the foundation I would use as guideline to implement the App. 
+
+### Data Model
