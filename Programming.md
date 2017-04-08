@@ -20,14 +20,14 @@ The main project (currently private) integrates a number of private GitHub repos
 
 ### App Design
 
-Several months were spend on the _App Design_. The process essentially involved four sequential steps:
+Several months were spend on the _App Design_. The sequential process I followed is shown below:
 
-1. ___Design the initial Wire Diagram___: The 'Wire Diagram' was a schematic on a large whiteboard drawn using dry erase markers. While the diagram did not take long to complete (maybe about an hour) it was the result of weeks of brainstorming and successfully captured my initial vision.
+1. ___Design the initial Wire Diagram___: The 'Wire Diagram' was a schematic drawn on a large whiteboard. While the initial diagram did not take long to complete (maybe about an hour) it was the result of weeks of brainstorming and successfully captured my vision. I would often tweak the drawing as I worked out my main features.
 
-2. ___Detail the Main Features___: This step involved jotting down in a spreadsheet the key features I wanted to implement. I often refered to this document while implementing the _Proof of Concept (POC)_ outlined below.
+2. ___Detail the Main Features___: This step involved writting down in a spreadsheet the key features I wanted to implement. I often refered to this document while implementing the _Proof of Concept (POC)_ outlined below.
 
-2. ___Implement a Proof of Concept___: My first questions was _Can the key features be implemented and produce the expected results?_ The best way to find out was to implement a simple POC that integrated a number of features and especially the _Match Algorithms_. The POC was targetted to run on my _iPad_ and, though buggy, it generated the results I expected and lay the ground work for the next step. 
+2. ___Implement a Proof of Concept___: My first questions was _Can the key features be implemented and produce the expected results?_ The best way to find out was to implement a simple POC that integrated a number of key features, among them the _Match Algorithms_. My target was an _iPad_ App and, despite a few bugs, it generated the results I hoped for and lay down the ground work for the next step. 
 
-3. ___Design the Prototype and Mockups___: By now I just about knew exactly what I wanted but instead of diving into the implementation, I decided that creating a prototype and mockups would allow me to more easily tweek with the UI and function without incurring the development overhead. For this I turned to [___AppCooker___](https://itunes.apple.com/us/app/appcooker-prototyping-mockup-studio-for-ios/id418861662?mt=8), a prototyping/mockup App for the iPad. The $20 I invested on this App was well worth the cost. The tool allowed me to create the interactive framework that I was looking for while laying out many of the UI elements that eventually made it to the App. Even though I spent several weeks prototyping, the end result provided the foundation I would use as guideline to implement the App. 
+3. ___Design the Prototype and Mockups___: By now I just about knew exactly what I wanted but instead of diving into the implementation, I was hoping that creating a prototype and mockups would allow me to more easily set up the UI, Control, and Navigation for a "finished" App without the time expenditure generally involved in developing. For this I turned to [___AppCooker___](https://itunes.apple.com/us/app/appcooker-prototyping-mockup-studio-for-ios/id418861662?mt=8), a prototyping/mockup App for the iPad. The $20 I invested on this App was well worth the cost. The tool allowed me to lay out the various controllers and UI elements in a way similar to an XCode _storyboard_ and simulate the App interactive _segues_ and _navigation_. Even though the mockups took several weeks to complete the finished framework served as an invaluable reference that helped, without a doubt, speed up the development process.
 
 ### Data Model
