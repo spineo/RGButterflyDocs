@@ -12,9 +12,11 @@ Work started on this application back in 2014, shortly after I got into iOS deve
 
 ### XCode IDE
 
-The experience of using XCode for App development has been largely positive and I have personally found this IDE to be superior to many of the others I have used in the past including Eclipse and IntelliJ. It took a while gettings used to Objective-C and the many IDE abstractions (such as XCode _groups_ used to structure the App components) especially coming from a Software Engineering background where much of my work was backend, often at the Linux OS level, and in many cases using scripting/interpretive languages.
+The experience of using XCode for App development has been largely positive and I have personally found this IDE to be superior to many of the others I have used in the past including Eclipse, IntelliJ, and Visual Studio. It took a while getting used to Objective-C and the many IDE abstractions (such as XCode _groups_ used to structure the App components) especially coming from a Software Engineering background where much of my work was at the Linux OS level and often using scripting/interpretive languages.
 
-### GitHub Structure
+A couple of notes about XCode. It can only be run on MacOS and is easier to use on a larger screen. That being said, while I prefer XCode development on my iMac I have found no significant hurdles to using it on my 13 inch MacBook Pro.
+
+### GitHub Integration
 
 The main project (currently private) integrates a number of private GitHub repos as well as libraries from the [_IOS Utilities_](https://github.com/spineo/ios-utilities), [_IOS Algorithms_](https://github.com/spineo/ios-algorithms), [_IOS Custom Cells_](https://github.com/spineo/ios-custom-cells), and [_RGButterfly Tests (Swift)_]( https://github.com/spineo/rgbutterfly-tests) public repos. Over time, as I refactored the code, it made sense create these separate frameworks of potentially resuable code (the plan is to eventually make all repos public). The down side of this approach has been needing to now integrate more than one GitHub repo into the application (something that is fortunately automatically done in XCode) and tagging the many repos. Since I have been the only developer on this project, I have generally worked off of the _Master_ branch except for a few occasions earlier on in the project.
 
