@@ -14,7 +14,7 @@ Work started on this application back in 2014, shortly after I got into iOS deve
 
 The experience of using XCode for App development has been largely positive and I have personally found this IDE to be superior to many of the others I have used in the past including Eclipse, IntelliJ, and Visual Studio. It took a while getting used to Objective-C and the many IDE abstractions (such as XCode _groups_ used to structure the App components) especially coming from a Software Engineering background where much of my work was at the Linux OS level and often using scripting/interpretive languages.
 
-A couple of notes about XCode. It can only be run on MacOS and is easier to use on a larger screen. That being said, while I prefer XCode development on my iMac I have found no significant hurdles to using it on my 13 inch MacBook Pro.
+A couple of notes about XCode. It can only be run on MacOS and is easier to use on a larger screen. That being said, while I prefer XCode development on my iMac it also works fine on my 13 inch MacBook Pro.
 
 ### GitHub Integration
 
@@ -22,7 +22,15 @@ The main project (currently private) integrates a number of private GitHub repos
 
 ### Issue Tracking
 
-One of the first tasks I integrated into the development process was Issue tracking. Though in the past I have used many commercial/open source issue tracking systems any of which I would highly recommend for multi-developer environments, I felt that using such a system for this one-man project was overkill. The system I came up with uses a simple Excel Spreadsheet with five sheets (or tabs): _Active_, _Pre-Release_, _Post-Release_, _Completed_, and _Next Release_ issues.
+One of the first tasks was to integrated into the development process Issue tracking. Though in the past I have used many commercial/open source issue tracking systems any of which I would highly recommend for multi-user environments, I felt that using such a system for this one-man project was overkill. The system I came up with uses a simple but effective Excel Spreadsheet with five sheets (or tabs): _Active_, _Pre-Release_, _Post-Release_, _Completed_, and _Next Release_ issues.
+
+For each sheet I included six columns:
+* _Task ID_: A numeric id prefixed by _F_ (Feature) or _B_ (Bug)
+* _Component_: Structural or functional component(s) the feature or bug applies to.
+* _Description_: Brief description of the Feature or Bug
+* _Status_: Completions Status (i.e., PEND, IN PROG, DONE, or ABAND)
+* _Priority_: Work prioritization (20-2) with 1 reserved for DONE/ABAND
+* _Comment_: Any related comment such what needs to be completed
 
 ### App Design
 
