@@ -26,11 +26,13 @@ One of the first tasks was to integrated into the development process Issue trac
 
 For each sheet I included six columns:
 * _Task ID_: A numeric id prefixed by _F_ (Feature) or _B_ (Bug)
-* _Component_: Structural or functional component(s) the feature or bug applies to.
+* _Component_: Structural or functional component(s) the Feature or Bug affects
 * _Description_: Brief description of the Feature or Bug
 * _Status_: Completions Status (i.e., PEND, IN PROG, DONE, or ABAND)
-* _Priority_: Work prioritization (20-2) with 1 reserved for DONE/ABAND
-* _Comment_: Any related comment such what needs to be completed
+* _Priority_: Work priority starting at 20 with 1 assigned to DONE/ABAND (sheets are sorted by this column ensuring that high priority items bubble up to the top and DONE/ABAND ones to the bottom)
+* _Comments_: Additional comments such as completion status and references
+
+_Active_ sheet issues that are DONE/ABAND get transferred to _Completed_. Issues tied to Pre/Post-Release or slated for a future release get added to the appropritate sheet.
 
 ### App Design
 
