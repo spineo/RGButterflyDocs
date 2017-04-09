@@ -76,7 +76,7 @@ Though App has not been released, there are a number of new features that I am l
 * Address __Internationalization/Localization__ issues
 * __Improve Usability__ (covers things like improvements to the UI/Graphics and new User Settings, such as Fonts and Thumbnail sizes)
 * ___Re-Enable Functionality___ such as _Match Association_ editing that will likely not be included in this release
-* ___Revisit the Current Data Storage Model__ (perhaps consider centralized data storage and queries)
+* ___Revisit the Current Data Storage Model___ (perhaps consider centralized data storage and queries)
 
 
 For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
