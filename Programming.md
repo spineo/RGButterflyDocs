@@ -25,12 +25,12 @@ The main project (currently private) integrates a number of private GitHub repos
 One of the first tasks was to integrated into the development process Issue tracking. Though in the past I have used many commercial/open source issue tracking systems any of which I would highly recommend for multi-user environments, I felt that using such a system for this one-man project was overkill. The system I came up with uses a simple but effective Excel Spreadsheet with five sheets (or tabs): _Active_, _Pre-Release_, _Post-Release_, _Completed_, and _Next Release_ issues.
 
 For each sheet I included six columns:
-* _Task ID_: A numeric id prefixed by _F_ (Feature) or _B_ (Bug)
-* _Component_: Structural or functional component(s) the Feature or Bug affects
-* _Description_: Brief description of the problem
-* _Status_: Completions Status (i.e., PEND, IN PROG, DONE, or ABAND)
-* _Priority_: Work priority starting at 20 with 1 assigned to DONE/ABAND (sheets are sorted by this column ensuring that high priority items bubble to the top and DONE/ABAND ones to the bottom)
-* _Comments_: Additional comments such as completion status or references
+* __Task ID__: A numeric id prefixed by _F_ (Feature) or _B_ (Bug)
+* __Component__: Structural or functional component(s) the Feature or Bug affects
+* __Description__: Brief description of the problem
+* __Status__: Completions Status (i.e., PEND, IN PROG, DONE, or ABAND)
+* __Priority__: Work priority starting at 20 with 1 assigned to DONE/ABAND (sheets are sorted by this column ensuring that high priority items bubble to the top and DONE/ABAND ones to the bottom)
+* __Comments__: Additional comments such as completion status or references
 
 _Active_ sheet issues that are DONE/ABAND get transferred to _Completed_. Issues tied to Pre/Post-Release time-frame or slated for a future release get added to the appropritate sheet.
 
