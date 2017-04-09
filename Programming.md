@@ -8,13 +8,13 @@ The App is currently implemented to run on ___iPhone___ devices ([_iOS_](https:/
 
 ### Language
 
-Work started on this application back in 2014, shortly after I got into iOS development. Though Apple was just switching to the [_Swift_](https://developer.apple.com/swift/) programming language, I decided to continue implementing in [_Objective-C_](https://en.m.wikipedia.org/wiki/Objective-C) since, at the time, Swift was still relatively untested and provided fewer online resources. Fortunately Apple was expected to continue supporting Objective-C into the forseeable future and, more importantly, the Swift design allowed its libraries to be easily integrated into Objective-C applications allowing for a gradual transition (I have since started going in this direction)
+Work started on this application back in 2014, shortly after I got into iOS development. Though Apple was just switching to the [_Swift_](https://developer.apple.com/swift/) programming language, I decided to continue implementing in [_Objective-C_](https://en.m.wikipedia.org/wiki/Objective-C) since, at the time, Swift was still relatively untested and provided fewer online resources. Fortunately Apple was expected to continue supporting Objective-C into the forseeable future and the Swift API allowed its libraries to be easily integrated into Objective-C applications making a gradual transition easier (I have since started going in this direction)
 
 ### XCode IDE
 
-The experience of using XCode for App development has been largely positive and I have personally found this IDE to be superior to many of the others I have used in the past including Eclipse, IntelliJ, and Visual Studio. It took a while getting used to Objective-C and the many IDE abstractions (such as XCode _groups_ used to structure the App components) especially coming from a Software Engineering background where much of my work was at the Linux OS level and often using scripting/interpretive languages.
+The experience of using XCode for App development has been largely positive and I have found this IDE to be superior to many of the others used in the past including Eclipse, IntelliJ, and Visual Studio. It took a while getting used to Objective-C and the many IDE abstractions (such as XCode _groups_ used to structure the project tree) especially coming from a Software Engineering background where much of my work was at the Linux OS level mostly using scripting/interpretive languages.
 
-A couple of notes about XCode. It can only be run on MacOS and is easier to use on a larger screen. That being said, while I prefer XCode development on my iMac it also works fine on my 13 inch MacBook Pro.
+A couple of notes about XCode. It is better run on MacOS systems and is easier to use on a larger screen. That being said, while I prefer XCode development on my iMac it also works fine on my 13 inch MacBook Pro with a bit of juggling.
 
 ### GitHub Integration
 
@@ -22,7 +22,7 @@ The main project (currently private) integrates a number of private GitHub repos
 
 ### Issue Tracking
 
-One of the first tasks was to integrated into the development process Issue tracking. Though in the past I have used many commercial/open source issue tracking systems any of which I would highly recommend for multi-user environments, I felt that using such a system for this one-man project was overkill. The system I came up with uses a simple but effective Excel Spreadsheet with five sheets (or tabs): _Active_, _Pre-Release_, _Post-Release_, _Completed_, and _Next Release_ issues.
+One of the first tasks was to integrate into the development process Issue tracking. __This is something I would highly recommend for any medium to large project__. Though in the past I have used many commercial/open source issue tracking systems any of which would do the trick in multi-user environments, I felt that using such a system for this one-man project was overkill. The system I came up with uses a simple but effective Excel Spreadsheet with five sheets named _Active_, _Pre-Release_, _Post-Release_, _Completed_, and _Next Release_.
 
 For each sheet I included six columns:
 * __Task ID__: A numeric id prefixed by _F_ (Feature) or _B_ (Bug)
@@ -32,7 +32,7 @@ For each sheet I included six columns:
 * __Priority__: Work priority starting at 20 with 1 assigned to DONE/ABAND (sheets are sorted by this column ensuring that high priority items bubble to the top and DONE/ABAND ones to the bottom)
 * __Comments__: Additional comments such as completion status or references
 
-_Active_ sheet issues that are DONE/ABAND get transferred to _Completed_. Issues tied to Pre/Post-Release time-frame or slated for a future release get added to the appropritate sheet.
+The workflow is simple: New issues are generally added to the _Active_ sheet and DONE/ABAND ones get transferred to _Completed_. Issues tied to the Pre/Post-Release time-frames or slated for a future release get moved to the appropritate sheet or added directly to those sheets. To enhance readability selected rows can also be color coded (i.e., yellow IN PROG and gray DONE/ABAND).
 
 ### App Design
 
