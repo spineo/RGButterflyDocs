@@ -25,14 +25,14 @@ The main project (currently private) integrates a number of private GitHub repos
 One of the first tasks was to integrate into the development process Issue tracking. __This is something I would highly recommend for any medium to large project__. Though in the past I have used many commercial/open source issue tracking systems any of which would do the trick in multi-user environments, I felt that using such a system for this one-man project was overkill. The system I came up with uses a simple but effective Excel Spreadsheet with five sheets named _Active_, _Pre-Release_, _Post-Release_, _Completed_, and _Next Release_.
 
 For each sheet I included six columns:
-* __Task ID__: A numeric id prefixed by _F_ (Feature) or _B_ (Bug)
+* __Task ID__: A numeric id prefixed by _F_ (Feature) or _B_ (Bug) (the Task ID should also be reference in the Git commits)
 * __Component__: Structural or functional component(s) the Feature or Bug affects
 * __Description__: Brief description of the problem
 * __Status__: Completions Status (i.e., PEND, IN PROG, DONE, or ABAND)
-* __Priority__: Work priority starting at 20 with 1 assigned to DONE/ABAND (sheets are sorted by this column ensuring that high priority items bubble to the top and DONE/ABAND ones to the bottom)
+* __Priority__: Work priority starting at 20 with 1 assigned to DONE/ABAND (sheets are _desc_ sorted by this column ensuring that high priority items bubble to the top and DONE/ABAND ones to the bottom)
 * __Comments__: Additional comments such as completion status or references
 
-The workflow is simple: New issues are generally added to the _Active_ sheet and DONE/ABAND ones get transferred to _Completed_. Issues tied to the Pre/Post-Release time-frames or slated for a future release get moved to the appropritate sheet or added directly to those sheets. To enhance readability selected rows can also be color coded (i.e., yellow IN PROG and gray DONE/ABAND).
+The workflow is simple: New issues are generally added to the _Active_ sheet and DONE/ABAND ones get transferred to _Completed_. Issues tied to the Pre/Post-Release time-frames or slated for a future release get moved to the appropritate sheet or added directly to those sheets. To enhance readability selected rows are also color coded (i.e., yellow IN PROG and gray DONE/ABAND).
 
 ### App Design
 
@@ -47,3 +47,11 @@ Several months were spend on the _App Design_. The process that followed is outl
 3. ___Create the Mockup Application Prototype (MAP)___: By now I just about knew exactly what I wanted but instead of diving into the implementation, I was hoping that creating a MAP would allow me to more easily set up the UI, Control, and Navigation for a "finished" App without the time expenditure generally involved in developing. For this I turned to [___AppCooker___](https://itunes.apple.com/us/app/appcooker-prototyping-mockup-studio-for-ios/id418861662?mt=8), a MAP tool for the iPad. The $20 I invested on this App was well worth the cost. The tool allowed me to lay out the various controllers and UI elements in a way similar to an XCode [_Storyboard_](https://developer.apple.com/library/content/documentation/General/Conceptual/Devpedia-CocoaApp/Storyboard.html) and simulate many of the real App interactive elements such as  _Actions_, [_Segues_](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/UsingSegues.html) and _Navigation_. Even though the MAP took several weeks to complete the finished framework served as an invaluable reference that helped, without a doubt, speed up the development process.
 
 ### Data Model
+
+_Data_ is key to this application and this App is built on [_Core Data_](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html?utm_source=iosstash.io). A significant amount of time was spent developing the data model (and the many interfacing [_NSManagedObject_](https://developer.apple.com/reference/coredata/nsmanagedobject) sub-classes) even before diving, at least to a significant extent, into the UI controllers and views.
+
+The data model is currently at major version 63 and is composed of 20 entities (each mapping to a _table_ in the backend [_SQLite_](https://www.sqlite.org) store). The NSManagedObject classes provide many of the key operations (i.e., Object or NSSet get/set, add, remove) against the _Entities_, _Attributes_, and/or _Relations_. Additional custom methods were also implemented with a few  generic ones packaged in the [_CoreDataUtils_](https://github.com/spineo/ios-utilities/blob/master/CoreDataUtils.m) class but most currently private.
+
+Since most of the controllers in this App are [_TableView_](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html) Controllers the [_NSFetchedResultsController_](https://developer.apple.com/reference/coredata/nsfetchedresultscontroller) API is used frequently as it provides the built-in callback methods to populate the _TableViews_.
+
+The initial [_ER_](https://en.m.wikipedia.org/wiki/Entity–relationship_model) relations were captured using a graphing application. After the initial implementation, additions/modifications were implemented directly by using the CoreData built-in Data Modelling tool.
