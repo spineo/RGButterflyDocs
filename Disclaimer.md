@@ -1,6 +1,6 @@
 ## Disclaimer
  
-![RGButterfly Logo](images/RGButterfly_Logo.png) This App attempts to find matching paint references and/or mixes associated with user selected areas in a photo. It does this by applying algorithm(s) based on the RGB and/or HSB color properties.  In many cases the heuristic misses the mark or is unable to find a suitable match against the database. My hope is to continue to improve that match accuracy with future releases as a result of both refinements in the algorithm and new paint references/mixes added to the database.
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) This App attempts to find matching paint references and/or mixes associated with user selected areas in a photo. It does this by applying algorithm(s) based on the RGB and/or HSB color properties.  In many cases the heuristic misses the mark or is unable to find a suitable match against the database. My hope is to continue to improve that match accuracy with future releases as a result of both refinements in the algorithm and new paint references/mixes added to the database.
 
 The results produced by this App are just guideliness that might be useful to the novice artist. While I have attempted to capture, as carefully as possible, the real colors of the reference paints and mixes, inaccuracies resulting from the paint mixing process and/or photographic lighting are likely to exist (see also 'The Reference Data' section __[here](About.md)__ for more information).
 
@@ -14,4 +14,4 @@ For questions/comments about this App please email me at [svpineo@gmail.com](mai
 
 ![Paints](images/Paints.jpg)
 
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com)
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)

@@ -1,6 +1,6 @@
 ## Image Match Examples
 
-![RGButterfly Logo](images/RGButterfly_Logo.png) The set of screenshots that follow show examples of the _Image Match_ functionality.
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) The set of screenshots that follow show examples of the _Image Match_ functionality.
 
 The first step is to integrate an image. This can be initiated by clicking on the _photo_ icon top-left of the Main View (screenshot 1 below). Once the image (or photo taken) is selected it can be positioned in the _Match_ type (default) view that is part of the _Image View_ (screenshots 2 & 3).
 
@@ -39,4 +39,4 @@ The final set of screenshots below exemplify the "Areas" navigation described ea
 
 ![Match Areas Navigation](images/MatchAreasNav.jpg)
 
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com)
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)

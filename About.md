@@ -1,6 +1,6 @@
 ## The Reference Data and Match Methodology
  
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) This experimental App (currently private) grew out of my interest in painting and aims to help users find acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes.
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) This experimental App (currently private) grew out of my interest in painting and aims to help users find acrylic color paint matches associated with selected areas of a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes.
 
 ### The Reference Data
 
@@ -53,4 +53,4 @@ The user may apply seven algorithms to find one or more potential matches. Each 
 
 I found that though some of these algorithms (in particular the RGB method) consistently produced the best results others might perform slightly better at different RGB/HSB ranges. All algorithms do consistently produce better results matching darker colors than lighter ones so I am still working on improvements to the accuracy, in particular, relating to lighter values.
 
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)

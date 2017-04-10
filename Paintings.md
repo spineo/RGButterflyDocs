@@ -1,5 +1,5 @@
 ## Paintings
  
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com)
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
 
 

@@ -1,6 +1,6 @@
 ## Programming Considerations
  
-![RGButterfly Logo](images/RGButterfly_Logo.png) This section gives an overview of the program structure and development process.
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) This section gives an overview of the program structure and development process.
 
 ### Platform
 
@@ -56,4 +56,4 @@ Since most of the controllers in this App are [_TableView_](https://developer.ap
 
 The initial [_ER_](https://en.m.wikipedia.org/wiki/Entity–relationship_model) relations were captured using a graphing application. After the initial implementation, additions/modifications were implemented directly by using the CoreData built-in Data Modelling tool.
 
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com)
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
