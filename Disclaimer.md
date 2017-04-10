@@ -8,7 +8,7 @@ While most references are based on the _Liquitex_ brand this does not mean that 
 
 The App currently focuses on heavy-body Acrylics (see photo below) since that is the type of media I am more familiar with but I am open to the possibility of expanding to other media.
 
-Finally, this App is something that I have work on during my spare time and grew out of my passion for Software Engineering and Art. Since I am not a professional artist, photographer, or expert in color theory I had to first research and then implement (much through trial and error) the methods and algorithms used for this App. My hope is that this is just the first version of a work in progress.
+Finally, this App is something that I have worked on during my spare time and grew out of my passion for Software Engineering and Art (some of my paintings can be found [here](https://deqi4muztfq55.cloudfront.net/paintings--drawings.html)). Since I am not a professional artist, photographer, or expert in color theory I had to first research and then implement (much through trial and error) the methods and algorithms used for this App. My hope is that this is just the first version of a work in progress.
 
 For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
 
