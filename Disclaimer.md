@@ -13,3 +13,5 @@ Finally, this App is something that I have work on during my spare time and grew
 For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
 
 ![Paints](images/Paints.jpg)
+
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com)

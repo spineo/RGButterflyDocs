@@ -1,6 +1,6 @@
 ## Access and Alerts
 
-![RGButterfly Logo](images/RGButterfly_Logo.png) This section briefly discusses Access and Alerts
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) This section briefly discusses Access and Alerts
 
 ### Camera and Photo Library Access
 
@@ -28,3 +28,5 @@ A number of validation and informational alerts may pop up while using the App.
 * ___Validation Alerts___ typically occur when incorrect data is entered (i.e., text entered in a field exceeds allowable length)
 
 * ___Informational Alerts___ are enabled by default and help first-time users navigate the features. These alerts can be turned off on a case-by-case basis or globally in ___RGButterfly Settings___.
+
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com)

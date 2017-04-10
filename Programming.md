@@ -55,3 +55,5 @@ The data model is currently at major version 63 and is composed of 20 entities (
 Since most of the controllers in this App are [_TableView_](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html) Controllers the [_NSFetchedResultsController_](https://developer.apple.com/reference/coredata/nsfetchedresultscontroller) API is used frequently as it provides the built-in callback methods to populate the _TableViews_.
 
 The initial [_ER_](https://en.m.wikipedia.org/wiki/Entity–relationship_model) relations were captured using a graphing application. After the initial implementation, additions/modifications were implemented directly by using the CoreData built-in Data Modelling tool.
+
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com)

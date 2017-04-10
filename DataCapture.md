@@ -31,3 +31,5 @@ Clicking on the '>' to the right of an association will bring up the _Swatch Det
 We are now ready to complete the process in our Data Capture Session. We will first click on the _Done_ button and an Alert will give us the option to "Save Changes" (screenshot 1). After saving, we can go back to our _Association_ view (by clicking the "<" navigation button on the top left). As shown on screenshot 2, we will make some minor changes to the "Association Name" by adding a " Test" at the end (since a previously created association already exists with the current name) and save these changes. Finally, we can click on the home button (bottom left) which will takes us back to the Main View. Since our default view is not _Color Associations_, we can now click on the list icon (bottom middle) and select that type (screenshot 3). Clicking on the Search magnifier icon (top left) will display the search field which will help us find our new association and confirm that it is listed (final screenshot). 
 
 ![Data Capture Save](images/DataCapture_Save.jpg)
+
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com)

@@ -38,3 +38,5 @@ Screenshots 3 & 4 show the _Swatch Detail_ view in this case, accessed by clicki
 The final set of screenshots below exemplify the "Areas" navigation described earlier. 
 
 ![Match Areas Navigation](images/MatchAreasNav.jpg)
+
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com)
