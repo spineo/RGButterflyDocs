@@ -36,7 +36,7 @@ The workflow is simple: New issues are generally added to the _Active_ sheet and
 
 ### App Design
 
-Several months were spend on the _App Design_. The process that followed is outlined below:
+__I believe that the several months I spent up front on the _App Design_ paid off significantly when it came to development time__. The process that followed is outlined below:
 
 1. ___Design the initial Wire Diagram___: The 'Wire Diagram' was a schematic drawn on a large whiteboard. While the initial diagram did not take long to complete (maybe about an hour) it was the result of weeks of brainstorming and successfully outlined my vision. I would often tweak the drawing as I worked out my main features.
 
@@ -48,12 +48,20 @@ Several months were spend on the _App Design_. The process that followed is outl
 
 ### Data Model
 
-_Data_ is key to this application and this App is built on [_Core Data_](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html?utm_source=iosstash.io). A significant amount of time was spent developing the data model (and the many interfacing [_NSManagedObject_](https://developer.apple.com/reference/coredata/nsmanagedobject) sub-classes) even before diving, at least to a significant extent, into the UI controllers and views.
+_Data_ is key to this application and this App is built on [_Core Data_](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html?utm_source=iosstash.io). A significant amount of time was spent developing the data model (and the many interfacing [_NSManagedObject_](https://developer.apple.com/reference/coredata/nsmanagedobject) sub-classes) even before diving, at least to a significant extent, into the UI controllers and views. __Again, time well spent since changes to the Data Model tend to be costlier than changes to the UI.
 
 The data model is currently at major version 63 and is composed of 20 entities (each mapping to a _table_ in the backend [_SQLite_](https://www.sqlite.org) store). The NSManagedObject classes provide many of the key operations (i.e., Object or NSSet get/set, add, remove) against the _Entities_, _Attributes_, and/or _Relations_. Additional custom methods were also implemented with a few  generic ones packaged in the [_CoreDataUtils_](https://github.com/spineo/ios-utilities/blob/master/CoreDataUtils.m) class but most currently private.
 
 Since most of the controllers in this App are [_TableView_](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html) Controllers the [_NSFetchedResultsController_](https://developer.apple.com/reference/coredata/nsfetchedresultscontroller) API is used frequently as it provides the built-in callback methods to populate the _TableViews_.
 
 The initial [_ER_](https://en.m.wikipedia.org/wiki/Entity–relationship_model) relations were captured using a graphing application. After the initial implementation, additions/modifications were implemented directly by using the CoreData built-in Data Modelling tool.
+
+## Implementation
+
+## Troubleshooting
+
+Developing the App has often been challenging and there have been times when I have spent hours and, in some cases days, trying to troubleshoot a problem. XCode alone has so many features and configuration options that three years later I continue to learn how to use the unexplored ones.
+
+Time when I have consistently encountered problems is during upgrades. __Incompatibilites between the versions of XCode, the OS, and/or the IOS deployment device can cause problems__. 
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
