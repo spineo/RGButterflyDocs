@@ -34,9 +34,9 @@ For each sheet I included six columns:
 
 The workflow is simple: New issues are generally added to the _Active_ sheet and DONE/ABAND ones get transferred to _Completed_. Issues tied to the Pre/Post-Release time-frames or slated for a future release get moved to the appropritate sheet or added directly to those sheets. To enhance readability selected rows are also color coded (i.e., yellow IN PROG and gray DONE/ABAND).
 
-### App Design
+### App Design and Prototyping
 
-__I believe that the several months I spent up front on the _App Design_ paid off significantly when it came to development time__. The process that followed is outlined below:
+__I am pretty confident that the several months I spent up front on the App Design and Prototyping paid off when it came to development time__. The process that followed is outlined below:
 
 1. ___Design the initial Wire Diagram___: The 'Wire Diagram' was a schematic drawn on a large whiteboard. While the initial diagram did not take long to complete (maybe about an hour) it was the result of weeks of brainstorming and successfully outlined my vision. I would often tweak the drawing as I worked out my main features.
 
@@ -48,7 +48,7 @@ __I believe that the several months I spent up front on the _App Design_ paid of
 
 ### Data Model
 
-_Data_ is key to this application and this App is built on [_Core Data_](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html?utm_source=iosstash.io). A significant amount of time was spent developing the data model (and the many interfacing [_NSManagedObject_](https://developer.apple.com/reference/coredata/nsmanagedobject) sub-classes) even before diving, at least to a significant extent, into the UI controllers and views. __Again, time well spent since changes to the Data Model tend to be costlier than changes to the UI.
+_Data_ is key to this application and this App is built on [_Core Data_](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html?utm_source=iosstash.io). A significant amount of time was spent developing the data model (and the many interfacing [_NSManagedObject_](https://developer.apple.com/reference/coredata/nsmanagedobject) sub-classes) even before diving, at least to a significant extent, into the UI controllers and views. __Again, time well spent since changes to the Data Model tend to be costlier down the road than changes to the UI and Controllers__.
 
 The data model is currently at major version 63 and is composed of 20 entities (each mapping to a _table_ in the backend [_SQLite_](https://www.sqlite.org) store). The NSManagedObject classes provide many of the key operations (i.e., Object or NSSet get/set, add, remove) against the _Entities_, _Attributes_, and/or _Relations_. Additional custom methods were also implemented with a few  generic ones packaged in the [_CoreDataUtils_](https://github.com/spineo/ios-utilities/blob/master/CoreDataUtils.m) class but most currently private.
 
@@ -58,10 +58,24 @@ The initial [_ER_](https://en.m.wikipedia.org/wiki/Entity–relationship_model) 
 
 ## Implementation
 
+TBA
+
+## Testing
+
+TBA
+
 ## Troubleshooting
 
-Developing the App has often been challenging and there have been times when I have spent hours and, in some cases days, trying to troubleshoot a problem. XCode alone has so many features and configuration options that three years later I continue to learn how to use the unexplored ones.
+Developing the App has often been challenging and there have been times when I have spent hours or, in some cases, days trying to troubleshoot a problem. XCode alone has so many features and configuration options that three years later I continue to learn how to use unexplored ones.
 
-Time when I have consistently encountered problems is during upgrades. __Incompatibilites between the versions of XCode, the OS, and/or the IOS deployment device can cause problems__. 
+Times when I have often encountered problems are during upgrades. __Incompatibilites between the versions of XCode, the underlying OS, and/or the IOS deployment device can cause problems__.
+
+New features resulting from upgrades might also break the App due to configuration changes. A recent example of this was when the upgrade to IOS 10 broke access to the Camera and Photo Library. It was not until I fixed one of the XCode configuration files that I was able to get this working again.
+
+Most of the day-to-day problems fortunately are associated with the development process and usually a trip to [_Stackoverflow_](http://stackoverflow.com/tour) or some other online help site provides the tips needed to resolve the problem in short order.
+
+## Resources
+
+TBA
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
