@@ -56,11 +56,16 @@ Since most of the controllers in this App are [_TableView_](https://developer.ap
 
 The initial [_ER_](https://en.m.wikipedia.org/wiki/Entity–relationship_model) relations were captured using a graphing application. After the initial implementation, additions/modifications were implemented directly by using the CoreData built-in Data Modelling tool.
 
-## Implementation
+## UI Layout and Implementation
 
 Most of the 12 controllers are _TableViewControllers_ as I found this type to generally be more versatile for scrolling and laying out the different types of subviews. All controllers but one are embedded in _Navigation_ controllers and _BarButtonItems_ are generally the widget of choice for actions or navigation between controllers.
 
-_Toolbars_ are used over _TabBars_ (due to the "deeper" layout of controllers which favors the former type) and _Push Modal_ and Unwind _Segues_ are used to communicated between controllers.
+[_Toolbars_](https://developer.apple.com/ios/human-interface-guidelines/ui-bars/toolbars/) are used instead of [_TabBars_](https://developer.apple.com/ios/human-interface-guidelines/ui-bars/tab-bars/) (due to the "deeper" hierarchy of controllers which favors the former type) and _Push Modal_ and Unwind [_Segues_](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/UsingSegues.html) are used to communicated between controllers.
+
+Throughout the App Design and Prototyping and into the implementation process I often had to come up with ways to effectively use the limited Navigation and Toolbar real estate available. In general, I opted for the following choices:
+* _Less is Better_: I tried not to display a widget unless I felt it was essential (modifying behaviour in _Settings_ often presented a better alternative to keep the UI uncluttered)
+* _Consistency is Better_: Widgets that appear in multiple controllers are located in the same place (i.e., _Back_ button top left, _Edit/Done_ button top right, _Settings_ button bottom right, and _Home_ button bottom left)v
+* _Group Related Functionality_: To group related functionality, I often tied a _UIAlertController_ to multiple _UIAlertActions_ and linked the controller to a BarButtonItem (a good example of this is the use of a _Photo Icon_ to group Camera and Photo Library actions)
 
 
 ## Testing
