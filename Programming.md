@@ -64,7 +64,7 @@ Most of the 12 controllers are _TableViewControllers_ as I found this type to ge
 
 Throughout the App Design and Prototyping and into the implementation process I often had to come up with ways to effectively use the limited Navigation and Toolbar real estate available. In general, I opted for the following choices:
 * _Less is Better_: I tried not to display a widget unless I felt it was essential (modifying behaviour in _Settings_ often presented a better alternative to keep the UI uncluttered)
-* _Consistency is Better_: Widgets that appear in multiple controllers are located in the same place (i.e., _Back_ button top left, _Edit/Done_ button top right, _Settings_ button bottom right, and _Home_ button bottom left)v
+* _Consistency is Better_: Widgets that appear in multiple controllers are located in the same place (i.e., _Back_ button top left, _Edit/Done_ button top right, _Settings_ button bottom right, and _Home_ button bottom left)
 * _Group Related Functionality_: To group related functionality, I often tied a _UIAlertController_ to multiple _UIAlertActions_ and linked the controller to a BarButtonItem (a good example of this is the use of a _Photo Icon_ to group Camera and Photo Library actions)
 
 
@@ -84,6 +84,7 @@ Most of the day-to-day problems fortunately are associated with the development 
 
 ## Resources
 
-TBA
+* [_The IOS Human Interface Guidelines_](https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/) is a good resource for UI layout.
+
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
