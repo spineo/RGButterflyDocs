@@ -58,7 +58,10 @@ The initial [_ER_](https://en.m.wikipedia.org/wiki/Entity–relationship_model) 
 
 ## Implementation
 
-TBA
+Most of the 12 controllers are _TableViewControllers_ as I found this type to generally be more versatile for scrolling and laying out the different types of subviews. All controllers but one are embedded in _Navigation_ controllers and _BarButtonItems_ are generally the widget of choice for actions or navigation between controllers.
+
+_Toolbars_ are used over _TabBars_ (due to the "deeper" layout of controllers which favors the former type) and _Push Modal_ and Unwind _Segues_ are used to communicated between controllers.
+
 
 ## Testing
 
