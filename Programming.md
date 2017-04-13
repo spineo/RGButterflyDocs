@@ -74,9 +74,9 @@ TBA
 
 ## Troubleshooting
 
-Developing the App has often been challenging and there have been times when I have spent hours or, in some cases, days trying to troubleshoot a problem. XCode alone has so many features and configuration options that three years later I continue to learn how to use unexplored ones.
+Developing the App has often been challenging and there have been times when I have spent hours or, in some cases, days trying to troubleshoot a problem. XCode alone has so many features and configuration options that three years later I continue to learn how to use many new ones new ones.
 
-Times when I have often encountered problems are during upgrades. __Incompatibilites between the versions of XCode, the underlying OS, and/or the IOS deployment device can cause problems__.
+The times when I have often encountered problems are during upgrades. __Incompatibilites between the versions of XCode, the underlying OS, and/or the IOS deployment device can cause problems__.
 
 New features resulting from upgrades might also break the App due to configuration changes. A recent example of this was when the upgrade to IOS 10 broke access to the Camera and Photo Library. It was not until I fixed one of the XCode configuration files that I was able to get this working again.
 
@@ -84,7 +84,8 @@ Most of the day-to-day problems fortunately are associated with the development 
 
 ## Resources
 
-* [_The IOS Human Interface Guidelines_](https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/) is a good resource for UI layout.
+* For learning about IOS development I found the Stanford University (available on iTunes) and Apple's Worldwide Developers Conference videos are great resources.
+* [_The IOS Human Interface Guidelines_](https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/) is a good resource for guidelines on designing the UI.
 
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
