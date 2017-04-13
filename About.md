@@ -53,4 +53,6 @@ The user may apply seven algorithms to find one or more potential matches. Each 
 
 I found that though some of these algorithms (in particular the RGB method) consistently produced the best results others might perform slightly better at different RGB/HSB ranges. All algorithms do consistently produce better results matching darker colors than lighter ones so I am still working on improvements to the accuracy, in particular, relating to lighter values.
 
+### Why Not Derive Mixes?
+
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
