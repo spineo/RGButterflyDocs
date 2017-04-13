@@ -67,14 +67,15 @@ Throughout the App Design and Prototyping and into the implementation process I 
 * _Consistency is Better_: Widgets that appear in multiple controllers are located in the same place (i.e., _Back_ button top left, _Edit/Done_ button top right, _Settings_ button bottom right, and _Home_ button bottom left)
 * _Group Related Functionality_: To group related functionality, I often tied a _UIAlertController_ to multiple _UIAlertActions_ and linked the controller to a BarButtonItem (a good example of this is the use of a _Photo Icon_ to group Camera and Photo Library actions)
 
-
 ## Testing
 
-TBA
+For the most part, I haven't adhered to test-driven development and the initial suite of Unit tests I developed early on in the project have recently been replaced with a Swift re-implementation.
+
+The [current](https://github.com/spineo/rgbutterfly-tests) set includes UI and Unit tests that integrate the [XCTest](https://developer.apple.com/reference/xctest) framework. The Unit tests are divided into RGButterflyBaseTests, Controller, and Model Tests. The former two categories cover Controller components and their connnecting points. The Model tests cover datamodel entities and relations.
 
 ## Troubleshooting
 
-Developing the App has often been challenging and there have been times when I have spent hours or, in some cases, days trying to troubleshoot a problem. XCode alone has so many features and configuration options that three years later I continue to learn how to use many new ones new ones.
+Developing the App has often been challenging and there have been times when I have spent hours or, in some cases, days trying to troubleshoot a problem. XCode alone has so many features and configuration options that three years later I continue to learn how to use many new ones.
 
 The times when I have often encountered problems are during upgrades. __Incompatibilites between the versions of XCode, the underlying OS, and/or the IOS deployment device can cause problems__.
 
