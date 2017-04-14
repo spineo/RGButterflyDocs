@@ -55,7 +55,7 @@ I found that though some of these algorithms (in particular the RGB method) cons
 
 ### Why Not Derive Paint Mixes?
 
-In the _Additive_ Color Model (i.e., Computer Monitors) the resulting color can be easily derived from overlapping RGB values. Paint Mixes, on the other hand, are created based on the _Subtractive_ Color Model in which colors are derived from the selective absorption of wavelengths of light (thus colors in the spectrum that are not absorbed render the true paint colors)
+In the [_Additive_](https://en.m.wikipedia.org/wiki/Additive_color) Color Model (i.e., Computer Monitors) the resulting color can be easily derived from overlapping RGB values. Paint Mixes, on the other hand, are created based on the [_Subtractive_](https://en.m.wikipedia.org/wiki/Subtractive_color) Color Model in which the derived color is the result of the selective absorption of wavelengths of light (thus the combined spectrum wavelengths that are reflected render the true paint color). It is because of the absorption/reflection of pigments that the RGB value of paint mixes cannot be derived by simple addition.
 
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
