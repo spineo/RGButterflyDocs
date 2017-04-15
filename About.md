@@ -53,9 +53,10 @@ The user may apply seven algorithms to find one or more potential matches. Each 
 
 I found that though some of these algorithms (in particular the RGB method) consistently produced the best results others might perform slightly better at different RGB/HSB ranges. All algorithms do consistently produce better results matching darker colors than lighter ones so I am still working on improvements to the accuracy, in particular, relating to lighter values.
 
-### Why Not Derive Paint Mixes?
+### Why Not _Derive_ Paint Mixes?
 
-In the [_Additive_](https://en.m.wikipedia.org/wiki/Additive_color) Color Model (i.e., Computer Monitors) the resulting color can be easily derived from overlapping RGB values. Paint Mixes, on the other hand, are created based on the [_Subtractive_](https://en.m.wikipedia.org/wiki/Subtractive_color) Color Model in which the derived color is the result of the selective absorption of wavelengths of light (thus the combined spectrum wavelengths that are reflected render the true paint color). It is because of the absorption/reflection of pigments that the RGB value of paint mixes cannot be derived by simple addition.
+In the [_Additive_](https://en.m.wikipedia.org/wiki/Additive_color) Color Model (i.e., Computer Monitors) the resulting color can be easily derived from overlapping RGB values. Paint Mixes, on the other hand, are created based on the [_Subtractive_](https://en.m.wikipedia.org/wiki/Subtractive_color) Color Model in which the derived color is the result of the selective absorption of wavelengths of light (thus the combined spectrum wavelengths that are reflected render the true paint color). It is because of the absorption/reflection of pigments that the RGB value of paint mixes cannot be derived by simple addition. The hope is to implement a derivation algorithm covering at least a subset of the data but I am still not there yet.
 
+### Filling in the Gaps
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
