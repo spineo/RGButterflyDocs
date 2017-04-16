@@ -61,6 +61,11 @@ In the [_Additive_](https://en.m.wikipedia.org/wiki/Additive_color) Color Model 
 
 There are currently about 2,500 paint swatches yet the RGB color space has 16,777,216 combinations. Clearly this discrepancy means that there are many _gaps_ within that color space. The App still provides, in many cases, if not a reasonably accurate match at least a starting point that may help the Artist achieve that better approximation through further mixing. The App also allows users to capture their mixes, conduct searches in the database and more importantly, create a searchable database of keyword associations (see [_Image Area(s) Match_](https://spineo.github.io/RGButterflyDocs/ImageMatch.html)) that might help with future subjects.
 
-_Generics_ is a type of swatch that has been captured to help fill in the gaps. This category is not tied to a specific Paint Brand but is rather a _Named_ swatch tied to a specific RGB (and [_Hex_](https://en.m.wikipedia.org/wiki/Web_colors)) value. While this type does not provide specific information about the Paints it might provide information about where in a [_Color Wheel_](https://en.m.wikipedia.org/wiki/Color_wheel) the match might fall (in the absence of any close Paint matches)
+___Generics___ is a type of swatch that has been captured to help fill in the gaps. This category is not tied to a specific Paint Brand but is rather a _Named_ swatch tied to a specific RGB (and [_Hex_](https://en.m.wikipedia.org/wiki/Web_colors)) value. While this type does not provide specific information about the Paints it might provide information about where in a [_Color Wheel_](https://en.m.wikipedia.org/wiki/Color_wheel) the match might fall (in the absence of any close Paint matches)
+
+### References
+
+* Main Generics source included [_here_](https://web.njit.edu/~kevin/rgb.txt.html)
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
+
