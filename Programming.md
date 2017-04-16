@@ -69,9 +69,9 @@ Throughout the App Design and Prototyping and into the implementation process I 
 
 ## Testing
 
-For the most part, I haven't adhered to test-driven development and the initial suite of Unit tests written in Objective-C have recently been replaced with a Swift re-implementation. For now, these test are in their own stand-alone public even though they probably should be part of the _rgbutterfly_ repo.
+For the most part, I haven't adhered to test-driven development and the initial suite of Unit tests written in Objective-C have recently been replaced with a Swift re-implementation. For now, these test are in their own stand-alone public repo but will eventually be re-integrated into the _rgbutterfly_ repo.
 
-The [current](https://github.com/spineo/rgbutterfly-tests) set includes UI and Unit tests that integrate the [XCTest](https://developer.apple.com/reference/xctest) framework. The Unit tests are divided into RGButterflyBaseTests (common to all Controllers)https://github.com/spineo/rgbutterfly-tests, Controller, and Model Tests. The former two categories cover Controller components and their connnecting points. The Model tests cover datamodel entities and relations.
+The [current](https://github.com/spineo/rgbutterfly-tests) set includes UI and Unit tests that integrate the [XCTest](https://developer.apple.com/reference/xctest) framework. The Unit tests are divided into RGButterflyBaseTests (common to all Controllers), Controller, and Model Tests. The former two categories cover Controller components and their connnecting points. The Model tests cover datamodel entities and relations.
 
 ## Troubleshooting
 
