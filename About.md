@@ -65,7 +65,7 @@ ___Generics___ is a type of swatch that has been captured to help fill in the ga
 
 ### References
 
-* Main Generics source included [_here_](https://web.njit.edu/~kevin/rgb.txt.html)
+* Main _Generics_ source included [_here_](https://web.njit.edu/~kevin/rgb.txt.html).
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
 
