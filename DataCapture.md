@@ -1,4 +1,4 @@
-## Data Capture Session
+## Manual Data Capture Session
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) The next few sets of screenshots describe the manual data capture process in more detail. As shown in the figure below (left screenshot), the user selects or takes a photo of the desired paint swatches. Since this is a data capture we will change the Action Type to _Associations_ and tap each paint swatch that will be used to create our mix association (screenshots 2 & 3). Note that we did not tap on the swatch that is at the bottom right of the quadrant even though it is part of this association. That is because that reference color (Pthalo Blue) already exists in our database and will be integrated referentially. Likewise, the second reference color (Cadmium Yellow Medium) that is part of our mix (not shown) will also be integrated referentially.
 
@@ -31,5 +31,9 @@ Clicking on the '>' to the right of an association will bring up the _Swatch Det
 We are now ready to complete the process in our Data Capture Session. We will first click on the _Done_ button and an Alert will give us the option to "Save Changes" (screenshot 1). After saving, we can go back to our _Association_ view (by clicking the "<" navigation button on the top left). As shown on screenshot 2, we will make some minor changes to the "Association Name" by adding a " Test" at the end (since a previously created association already exists with the current name) and save these changes. Finally, we can click on the home button (bottom left) which will takes us back to the Main View. Since our default view is not _Color Associations_, we can now click on the list icon (bottom middle) and select that type (screenshot 3). Clicking on the Search magnifier icon (top left) will display the search field which will help us find our new association and confirm that it is listed (final screenshot). 
 
 ![Data Capture Save](images/DataCapture_Save.jpg)
+
+## Automated Data Capture
+
+Currently no method is in place for automated bulk data capture with the exception of _Generics_ which are loaded from CSV files (each file containing analogous colors forming a single association)
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
