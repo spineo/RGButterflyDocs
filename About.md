@@ -14,7 +14,7 @@ After the paint swatches sheets were created they were photographed. For lightin
 
 ### The Match Methodology
 
-The user may apply seven algorithms to find one or more potential matches. Each algorithm compares the tap area against the database of swatches to yield a difference (d). The smaller the _d_ value the better the match is assumed to be. The algorithms, based on RGB and/or HSB color properties, are shown below:
+The user may apply seven algorithms to find one or more potential matches. Each algorithm compares the tap area against the database of swatches to yield a difference (d). The smaller the _d_ value the better the match is assumed to be. The algorithms, based on [___RGB___](https://en.m.wikipedia.org/wiki/RGB_color_space) and/or [___HSB___](https://en.m.wikipedia.org/wiki/HSL_and_HSV) color properties, are shown below:
 
 * RGB only or default:
 
@@ -55,10 +55,12 @@ I found that though some of these algorithms (in particular the RGB method) cons
 
 ### Why Not _Derive_ Paint Mixes?
 
-In the [_Additive_](https://en.m.wikipedia.org/wiki/Additive_color) Color Model (i.e., computer screens) the resulting color can be easily derived from overlapping RGB values. Paint Mixes, on the other hand, are created based on the [_Subtractive_](https://en.m.wikipedia.org/wiki/Subtractive_color) Color Model in which the derived color is the result of the selective absorption of wavelengths of light (thus the combined spectrum wavelengths that are reflected render the true paint color). It is because of the absorption/reflection of pigments that the RGB value of paint mixes cannot be derived by simple addition. My hope is to implement a derivation algorithm covering at least a subset of the data. This, of course, is still a work in progress.
+In the [_Additive_](https://en.m.wikipedia.org/wiki/Additive_color) Color Model (i.e., computer screens) the resulting color can be easily derived from overlapping RGB values. Paint Mixes, on the other hand, are created based on the [_Subtractive_](https://en.m.wikipedia.org/wiki/Subtractive_color) Color Model in which the derived color is the result of the selective absorption of wavelengths of light (thus the combined spectrum wavelengths that are reflected render the true paint color). It is because of the absorption/reflection of pigments that the RGB value of paint mixes cannot be derived by simple addition. My hope is to implement a derivation algorithm covering at least a subset of the data. This, of course, is still a work in progress and perhaps slated for a future release.
 
 ### Filling in the Gaps
 
-There are currently about 2,500 paint swatches yet the RGB color space has 16,777,216 combinations. Clearly this discrepancy means that there are many _gaps_ within that color space. The App still provides, in many cases, if not a reasonably accurate match at least a starting point that may help the Artist achieve that better approximation through further mixing. The App also allows users to capture their mixes, conduct searches in the database and more importantly, create a searchable database of keyword associations (see _Image Match_) that might help with future subjects. 
+There are currently about 2,500 paint swatches yet the RGB color space has 16,777,216 combinations. Clearly this discrepancy means that there are many _gaps_ within that color space. The App still provides, in many cases, if not a reasonably accurate match at least a starting point that may help the Artist achieve that better approximation through further mixing. The App also allows users to capture their mixes, conduct searches in the database and more importantly, create a searchable database of keyword associations (see [_Image Area(s) Match_](https://spineo.github.io/RGButterflyDocs/ImageMatch.html)) that might help with future subjects.
+
+_Generics_ is a type of swatch that has been captured to help fill in the gaps. This category is not tied to a specific Paint Brand but is rather a _Named_ swatch tied to a specific RGB (and [_Hex_](https://en.m.wikipedia.org/wiki/Web_colors)) value. While this type does not provide specific information about the Paints it might provide information about where in a [_Color Wheel_](https://en.m.wikipedia.org/wiki/Color_wheel) the match might fall (in the absence of any close Paint matches)
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
