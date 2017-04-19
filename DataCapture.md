@@ -32,8 +32,8 @@ We are now ready to complete the process in our Data Capture Session. We will fi
 
 ![Data Capture Save](images/DataCapture_Save.jpg)
 
-## Automated Data Capture
+## Bulk Data Capture
 
-Currently no method is in place for automated bulk data capture with the exception of _Generics_ which are loaded from CSV files (each file containing analogous colors forming a single association)
+The _Generics_ type is currently loaded using this method (i.e., CSV files). Work is being done to extend bulk loading to include Paint Swatches as well as allow users to import their own data from various sources such as Cloud directories or using REST APIs.
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
