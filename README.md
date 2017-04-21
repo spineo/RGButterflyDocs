@@ -9,13 +9,13 @@ The three main tasks this App performs are ___Reference & Search___, ___Image Ar
 ### Reference & Search
 
 The Initial View allows a user to switch between the five types of displays (shown in the screenshots that follow):
-* __Color Associations__: An ordered list of collections each representing a _Mix Association_
+* __Color Associations__: An ordered list of collections each representing a _Mix, Coverage, or Generic Association_
 * __Match Associations__: An ordered list of collections each representing a _Match Association_
 * __Individual Colors__: An ordered list of individual colors (mainly reference and mix paint swatches)
 * __Keywords Listing__: An alphabetized list of keywords and their associated reference or paint mixes
 * __Subjective Colors__: A list of color categories and their associated reference or paint mixes
 
-For each of the associations (first two screenshots below), scrolling right to left exposes remaining elements of the collection view. Clicking on any of the rows reveals detailed information about the selected association. For the _Individual Colors_ listing (third screenshot), clicking on a row takes you directly to the detailed view for that _Mix_ or _Reference_ paint color.
+For each of the associations (first two screenshots below), scrolling right to left exposes remaining elements of the collection view (more on association can be found __here__). Clicking on any of the rows reveals detailed information about the selected association. For the _Individual Colors_ listing (third screenshot), clicking on a row takes you directly to the detailed view for that _Mix_ or _Reference_ paint color.
 
 ![Assoc, Match, and All Views](images/Assoc_Match_and_AllViews.jpg)
 
