@@ -15,7 +15,7 @@ The Initial View allows a user to switch between the five types of displays (sho
 * __Keywords Listing__: An alphabetized list of keywords and their associated reference or paint mixes
 * __Subjective Colors__: A list of color categories and their associated reference or paint mixes
 
-For each of the associations (first two screenshots below), scrolling right to left exposes remaining elements of the collection view (more on association can be found [__here__](Associations.md)). Clicking on any of the rows reveals detailed information about the selected association. For the _Individual Colors_ listing (third screenshot), clicking on a row takes you directly to the detailed view for that _Mix_ or _Reference_ paint color.
+For each of the associations (first two screenshots below), scrolling right to left exposes remaining elements of the collection view (more on association can be found [__here__](Associations.md)). Clicking on any of the rows reveals detailed information about the selected association. For the [__Individual Colors__](Individual.md) listing (third screenshot), clicking on a row takes you directly to the [__detailed view__](Detail.md) for that _Mix_ or _Reference_ paint color.
 
 ![Assoc, Match, and All Views](images/Assoc_Match_and_AllViews.jpg)
 
