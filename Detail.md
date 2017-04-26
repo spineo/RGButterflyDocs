@@ -1,7 +1,6 @@
-## Association Types
+## Swatch Detailed Views
  
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
 
-[![Association Types](images/AssociationTypes.jpg)
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
