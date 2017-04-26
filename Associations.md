@@ -10,6 +10,6 @@
 
 These assocations are implemented as collection views with no size limitations. Some are as small as 2 (typically Coverage assocations) or may contain well over 100 items as is the case with a few of the Generic assocations.
 
-[Association Types](images/AssociationTypes.jpg)
+![Association Types](images/AssociationTypes.jpg)
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
