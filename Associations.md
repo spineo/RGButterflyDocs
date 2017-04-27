@@ -8,6 +8,8 @@
 
 * ___Generic___ associations (final screenshot) are collections of _named_ swatches that are not associated with specific paint references or mixes. They are used as "fillers" during the matching process to identify a color by name in the absence of close paint matches. While most Generic associations use a _Color Wheel_ categorization, other rules have also been used for the assocation.
 
+* ___Other___ associations are collections of two or more elements that don't fit into the categories outlined. For example, an artist might create an association of paint mixes that were used for a specific work. The 'Description' and/or 'Keywords' fields might be used, in this case, to capture additional content related to the association.
+
 These assocations are implemented as collection views with no size limitations. Some are as small as 2 (typically Coverage assocations) or may contain well over 100 items as is the case with a few of the Generic assocations.
 
 ![Association Types](images/AssociationTypes.jpg)
