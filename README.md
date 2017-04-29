@@ -2,7 +2,13 @@
 
 ## The [_RGButterfly_](http://rgbutterfly.com/) Paint App Documentation
 
-![RGButterfly Logo](images/RGButterfly_Logo.png) This main purpose of this experimental App is to help users find potential Acrylic color paint matches associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes. More about the _Reference Data and Methodology_ can be found [__here__](About.md) and please read the _Disclaimer_ section [__here__](Disclaimer.md). The [___Programming Considerations___](Programming.md) section gives an overview of the program structure and development. ___Clicking on the RGButterfly logo will get you back to the main page___.
+![RGButterfly Logo](images/RGButterfly_Logo.png) This main purpose of this experimental App is to help users find potential Acrylic color paint matches associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes. Below are a few links that might be of interest to get started:
+* [_Reference Data and Methodology_](About.md)
+* [_Disclaimer_](Disclaimer.md)
+* FAQ
+* [_Programming Considerations_](Programming.md)
+
+_Clicking on this ![RGButterfly Logo](images/RGButterfly_Logo.png) logo will get you back to this main page_.
 
 The three main tasks this App performs are ___Reference & Search___, ___Image Area(s) Match___ against a reference database, and the ___Paints Data Capture___.
 
