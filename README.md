@@ -1,11 +1,10 @@
-# RGButterflyDocs
+# [RGButterflyDocs](http://rgbutterfly.com/)
 
-## The [_RGButterfly_](http://rgbutterfly.com/) Paint App Documentation
+## Overview
 
-![RGButterfly Logo](images/RGButterfly_Logo.png) This main purpose of this experimental App is to help users find potential Acrylic color paint matches associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes. Below are a few links that might be of interest to get started:
+![RGButterfly Logo](images/RGButterfly_Logo.png) This main purpose of this experimental App is to help users find potential Acrylic color paint matches associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints and paint mixes. Below are a few links that might be of interest:
 * [_Reference Data and Methodology_](About.md)
 * [_Disclaimer_](Disclaimer.md)
-* FAQ
 * [_Programming Considerations_](Programming.md)
 
 _Clicking on this ![RGButterfly Logo](images/RGButterfly_Logo.png) logo will get you back to this main page_.
@@ -21,7 +20,7 @@ The Initial View allows a user to switch between the five types of displays (sho
 * __Keywords Listing__: An alphabetized list of keywords and their associated reference or paint mixes
 * __Subjective Colors__: A list of color categories and their associated reference or paint mixes
 
-For each of the associations (first two screenshots below), scrolling right to left exposes remaining elements of the collection view (more on association can be found [__here__](Associations.md)). Clicking on any of the rows reveals detailed information about the selected association. For the [__Individual Colors__](Individual.md) listing (third screenshot), clicking on a row takes you directly to the [__detailed view__](Detail.md) for that _Mix_ or _Reference_ paint color.
+For each of the associations (first two screenshots below), scrolling right to left exposes remaining elements of the collection view and clicking on any of the rows reveals [__detailed__](Associations.md) information about the selected association. For the [__Individual Colors__](Individual.md) listing (third screenshot), clicking on a row takes you directly to the [__Detailed View__](Detail.md) for that _Mix_ or _Reference_ paint color.
 
 ![Assoc, Match, and All Views](images/Assoc_Match_and_AllViews.jpg)
 
@@ -33,7 +32,7 @@ The _Keywords Listing_ (first two screenshots below) allows users to search for 
 
 ![Keyw and Subj Views](images/Keyw_and_SubjViews.jpg)
 
-All listings, with the exception of _Subjective Colors_ are alphabetized and include the top-right magnifier __Search__ button (search rules are somewhat different for each type of listing). In addition, the _Individual Colors_ and _Keywords Listing_ also provide an __Alphabetical Index__ for quick access.
+All listings, with the exception of _Subjective Colors_ are alphabetized and include the top-right magnifier __Search__ button (search rules are somewhat different for each type of listing). In addition, the _Individual Colors_ and _Keywords Listing_ also provide an __Alphabetical Index__ widget for quick access.
 
 ### Image Area(s) Match
 
@@ -54,7 +53,7 @@ The Settings Screen accessible from the gear button (bottom right on most views)
 * Checks for Database Updates (which allows users to perform updates when available)
 * Optionally setting Paint Swatches and/or Mix Associations to Read-Only for protection
 * Changing the default shape (i.e., circle or rectangle) and size of a tap area
-* Changing the number of tap area matches displayed
+* Changing the number of tap area matches displayed and/or filtering certain swatches (i.e., Generics)
 * Displaying Paint Swatches as captured or alternatively, rendered by RGB value
 * Entering the _Mix Ratios Set(s)_ used for data capture
 * Turning Off Informational Alerts
