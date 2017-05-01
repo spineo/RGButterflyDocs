@@ -4,7 +4,7 @@
 
 ### Platform
 
-The App is currently implemented to run on ___iPhone___ devices ([_iOS_](https://en.m.wikipedia.org/wiki/IOS) v10.x) with development using the [_XCode_](https://developer.apple.com/xcode/) IDE. Consideration has been given to extending this App to other platforms and venturing into multi-platform environments such as [_Xamarin_](https://www.xamarin.com/) for future Apps development.
+The App is currently implemented to execute on the ___iPhone 6, 6s, 6s Plus, 6 Plus, 7, 7 Plus, 5, 5s, and SE___ devices running [_iOS_](https://en.m.wikipedia.org/wiki/IOS) v10.x and using the [_XCode_](https://developer.apple.com/xcode/) 8.2.x IDE for the development/builds. Consideration has been given to extending this App to other platforms and venturing into multi-platform environments such as [_Xamarin_](https://www.xamarin.com/) for future Apps development.
 
 ### Language
 
