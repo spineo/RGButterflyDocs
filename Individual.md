@@ -4,4 +4,6 @@
 
 ![Individual Listings](images/IndividualListings.jpg)
 
+Though the _Portrait_ orientation is generally recommended for viewing/accessing most listings, the _Landscape_ orientation  (particularly with the individual listings) makes it easier to read the longer _Mix_ names. Slight changes to accomodate the new layout include dropping the letter headers visible during scrolling and dropping every third letter on the index in order for it to fit (two additional letters are dropped for devices with screens smaller than iPhone 6)
+
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
