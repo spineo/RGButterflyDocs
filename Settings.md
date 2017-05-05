@@ -1,8 +1,6 @@
 ## Settings
  
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
-
-Global App customizations using the Settings controller include:
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) Global App customizations using the Settings controller include:
 
 * Checks for Database Updates (which allows users to perform updates when available)
 * Optionally setting Paint Swatches and/or Mix Associations to Read-Only for protection
