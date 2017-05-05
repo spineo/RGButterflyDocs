@@ -54,11 +54,11 @@ The Settings Controller, accessible from the gear button (bottom right on most v
 
 ### Privacy, Access and Alerts
 
-This App does not store user or location information. Specific privacy settings must be enabled in order to access the Camera or Photo Library. Alerts cover a variety of use cases (though most alerts are informational). More information on Access and Alerts can be found __[here](AccessAndAlerts.md)__.  
+This App does not store user or location information. Specific privacy settings must be enabled in order to access the Camera or Photo Library. Alerts cover a variety of use cases (though most alerts are informational). More content related to _Access and Alerts_ can be found __[here](AccessAndAlerts.md)__.  
 
 ### Programming Considerations
 
-[__This__](Programming.md) section gives an overview of the program structure and development process.
+[__This__](Programming.md) section gives a mostly high-level overview of the program structure and development process.
 
 ### Future Directions
 
