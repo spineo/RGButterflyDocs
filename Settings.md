@@ -11,9 +11,12 @@
 * Turning Off Informational Alerts
 * Setting the default _Initial_ view
 
-The screenshots below capture the _Settings_ view
+The 'Save' button (top right) is disabled unless any of the settings have been modified. An alert is also issued if, after making changes, user attempts to leave the controller without saving. The screenshots below capture the _Settings_ view.
 
 ![Settings](images/Settings.jpg)
 
+A few other features included in this controller are the 'About this App' and 'Disclaimer' pages (both with links to the Web documentation), the 'Provide Feedback' link for sending an email, and the share button (bottom middle). This latter functionality (example screenshots shown below) allows the user to share the Web documentation via a selection of available Apps such as Email, Messenger, Twitter, and Facebook.
+
+![Share](images/Share.jpg)
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/)
