@@ -49,7 +49,7 @@ Photographed paint swatch areas can be tapped and integrated into a _Mix Associa
 
 ### Settings
 
-The Settings Controller, accessible from the gear button (bottom right on most views), allows a number of global App customizations. Other "Non-Settings" features embedded in this controller include the _About_ and _Disclaimer_ pages, Links to the _Web Documentation_ (GitHub Pages), Email _Feedback_ link, and documentation _Share_ buttons which enable distribution using any share-able App (such as Facebook, Twitter, Messenger, and Email) that user has access to. More on this controller, including screenshots, can be found [__here__](Settings.md). 
+The Settings Controller, accessible from the gear button (bottom right on most views), allows a number of global App customizations. Other "Non-Settings" features embedded in this controller include the _About this App_ and _Disclaimer_ pages, Links to the _Web Documentation_ (GitHub Pages), Email _Provide Feedback_ link, and documentation _Share_ buttons which enable distribution using any share-able App (such as Facebook, Twitter, Messenger, and Email) that user has access to. More on this controller, including screenshots, can be found [__here__](Settings.md). 
 
 
 ### Privacy, Access and Alerts
