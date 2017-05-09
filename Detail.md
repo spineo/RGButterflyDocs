@@ -17,7 +17,9 @@ The ___Reference___ detail view (screenshots 1 & 2) contains most of the data as
 
 The __MixAssoc__ detail view (screenshot 3) contains only data applicable to the Mix as the reference data associated with each mix component has already been captured. The _Name_ field (usually auto-generated) contains the names of references that go into the mix plus the _mix ratio_ appended to the end. Not shown in this example are the _Keywords_ and _Comments_ fields which remain hidden when empty and in non-edit mode.
 
-The __Generic__ detail view (screenshot 4) contains similar content as the _MixAssoc_ view with the _Canvas Coverage_ field missing as no paints are involved in creating these types of swatches.
+The __Generic__ detail view (screenshot 4) contains similar content as the _MixAssoc_ view with the _Canvas Coverage_ field missing as no paints are involved in creating these types of swatches. By convention, the name has the suffix '(Generic)'.
+
+The __GenericPaint__ detail view (not shown) contains similar content as the Generic one with the _Canvas Coverage_ field present as acrylic paints are the (second-hand) source for these swatches. These types are identified by the 'GenericPaint' swatch type and the name suffix '(GP)'.
 
 ![Swatch Detail Types](images/SwatchDetailTypes.jpg)
 
