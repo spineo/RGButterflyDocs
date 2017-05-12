@@ -59,13 +59,13 @@ In the [_Additive_](https://en.m.wikipedia.org/wiki/Additive_color) Color Model 
 
 ### Filling in the Gaps
 
-There are currently about 2,500 paint swatches yet the RGB color space has 16,777,216 combinations. Though that number is significantly smaller when taking into account human perception, those _perceived gaps_ still remain. The App still provides, in many cases, if not a reasonably accurate match at least a starting point that may help the artist achieve a closer approximation through further mixing. The App also allows users to capture and catalog their own mixes, search the data and more importantly, create an indexed, searchable database of keyword associations (see [_Image Area(s) Match_](https://spineo.github.io/RGButterflyDocs/ImageMatch.html)).
+There are currently over 2,700 paint swatches (including type _GenericPaint_) yet the RGB color space has 16,777,216 combinations. Though that number is significantly smaller when taking into account human perception, those _perceived gaps_ still remain. The App still provides, in many cases, if not a reasonably accurate match at least a starting point that may help the artist achieve a closer approximation through further mixing. The App also allows users to capture and catalog their own mixes, search the data and more importantly, create an indexed, searchable database of keyword associations (see [_Image Area(s) Match_](https://spineo.github.io/RGButterflyDocs/ImageMatch.html)).
 
 ___Generics___ is a type of swatch that has been captured to help fill in these gaps. This category is not tied to a specific Paint Brand but is rather a generically _Named_ swatch tied to RGB (and [_Hex_](https://en.m.wikipedia.org/wiki/Web_colors)) values. While this category does not provide information about the Paints it might provide, in the absence of close paint matches, information about where in a [_Color Wheel_](https://en.m.wikipedia.org/wiki/Color_wheel) the reference area might fall.
 
 ### References
 
-* A _Generics_ source is included [_here_](https://web.njit.edu/~kevin/rgb.txt.html).
+* A _Generics_ source used in this App is included [_here_](https://web.njit.edu/~kevin/rgb.txt.html).
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
 
