@@ -64,13 +64,12 @@ This App does not store user or location information. Specific privacy settings 
 
 Though App has not been released, there are a number of new features that I am looking to implement as well as existing ones that I plan to revisit sometime down the road. Some of the main ones include:
 
-* ___Extend the Dataset___ by adding Paint/Keywords data
-* Continue ___Improving the Match Algorithms___ and perhaps even look into data derivation formulas
+* __Extend the Dataset__ by adding Paints and additional Keywords associations
+* Continue __Improving the Match Algorithms__ and perhaps even look into data derivation formulas
 * Consider __Deployment to Other Platforms and/or Device Types__
 * Address __Internationalization/Localization__ issues
 * __Improve Usability__ (covers things like improvements to the UI/Graphics and new User Settings, such as Fonts and Thumbnail sizes)
-* ___Re-Enable Functionality___ such as _Match Association_ editing that will likely not be included in this release
-* ___Revisit the Current Data Storage Model___ (perhaps consider centralized data storage and queries)
-
+* __Revisit the Current Data Storage Model__ (perhaps consider centralized data storage and queries)
+* In some ways similar to the preceding point, __make it easy to share swatch data__
 
 For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
