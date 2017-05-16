@@ -32,6 +32,8 @@ We are now ready to complete the process in our Data Capture Session. We will fi
 
 ![Data Capture Save](images/DataCapture_Save.jpg)
 
+Other swatch types that are captured include _Generic_, _GenericType_, and _Coverage_. Thought the capture method is the same, the sources and relations between elements are different. These types are discussed in further detail [__here__](Associations.md).
+
 ## Bulk Data Capture
 
 The _Generics_ type is currently loaded using this method (i.e., CSV files). Work is being done to extend bulk loading to include Paint Swatches as well as allow users to import their own data from various sources such as Cloud directories or using REST APIs.
