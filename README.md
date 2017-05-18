@@ -2,7 +2,7 @@
 
 ## Overview
 
-![RGButterfly Logo](images/RGButterfly_Logo.png) The main purpose of this iPhone App is to help users find close Acrylic color paint matches associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints, paint mixes, and generic references. You might review the [__Reference Data and Methodology__](About.md) and [__Disclaimer__](Disclaimer.md) sections to get started. Information about _Programming Considerations_ can be found [__here__](Programming.md).
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this iPhone App is to help users find close Acrylic color paint matches associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints, paint mixes, and generic references. You might review the [__Reference Data and Methodology__](About.md) and [__Disclaimer__](Disclaimer.md) sections to get started. Information about _Programming Considerations_ can be found [__here__](Programming.md).
 
 _Clicking on this ![RGButterfly Logo](images/RGButterfly_Logo.png) logo will get you back to this main page_.
 
