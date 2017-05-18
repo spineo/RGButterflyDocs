@@ -1,5 +1,4 @@
 # [RGButterflyDocs](http://rgbutterfly.com/)
-#### _The iPhone App to Find Paint Swatches Associated with Areas in a Photo_
 
 ## Overview
 
