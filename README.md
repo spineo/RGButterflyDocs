@@ -2,7 +2,8 @@
 
 ## Overview
 
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this iPhone App is to suggest Acrylic paints associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints, paint mixes, and generic paint references. Please note that the key word is _suggest_ as there is much variability in the process and the results obtained will often be far from what you might expect (please review the [__Reference Data and Methodology__](About.md) and [__Disclaimer__](Disclaimer.md) sections to understand more about the data capture and potential shortcomings)
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this iPhone App is to suggest Acrylic paints associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints, paint mixes, and generic paint references. A key word is _attempt_
+as there is much variability in the process and the results obtained will often be far from what you might expect (please review the [__Reference Data and Methodology__](About.md) and [__Disclaimer__](Disclaimer.md) sections to learn more)
 
 _Clicking on this ![RGButterfly Logo](images/RGButterfly_Logo.png) logo will get you back to this main page_.
 
@@ -17,11 +18,11 @@ The Initial View allows a user to switch between the five types of displays (sho
 * __Keywords Listing__: An alphabetized list of keywords and their associated reference or paint mixes
 * __Subjective Colors__: A list of color categories and their associated reference or paint mixes
 
-For each of the associations (first two screenshots below), scrolling right to left exposes remaining elements of the collection view and clicking on any of the rows reveals [__detailed__](Associations.md) information about the selected association. For the [__Individual Colors__](Individual.md) listing (third screenshot), clicking on a row takes you directly to the [__Detailed View__](Detail.md) for that _Mix_ or _Reference_ paint color.
+For each of the associations (first two screenshots below), scrolling right to left exposes remaining elements of the collection view and clicking on any of the rows reveals the [__Association Detail__](Associations.md). For the [__Individual Colors__](Individual.md) listing (third screenshot), clicking on a row takes you directly to the [__Detailed View__](Detail.md) for that _Mix_ or _Reference_ swatch.
 
 ![Assoc, Match, and All Views](images/Assoc_Match_and_AllViews.jpg)
 
-Rotating to landcape, as shown below, makes it easier to read the full names. In the case of mixes, the longer display names include the two references and mix ratio.
+Rotating to landcape, as shown below, makes it easier to read the full names. Something especially useful for mixes, which use a longer display name that includes the two references and mix ratio.
 
 ![All Portrait and Landscape](images/All_Port_and_LandView.jpg)
 
