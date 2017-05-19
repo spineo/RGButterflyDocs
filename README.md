@@ -5,9 +5,7 @@
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this iPhone App is to suggest Acrylic paints associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints, paint mixes, and generic paint references. A key word is _attempt_
 as there is much variability in the process and the results obtained will often be far from what you might expect (please review the [__Reference Data and Methodology__](About.md) and [__Disclaimer__](Disclaimer.md) sections to learn more)
 
-_Clicking on this ![RGButterfly Logo](images/RGButterfly_Logo.png) logo will get you back to this main page_.
-
-The three main tasks this App performs are ___Reference & Search___, ___Image Area(s) Match___ against a reference database, and the ___Paints Data Capture___.
+The three main tasks this App performs are __Reference & Search__, __Image Area(s) Match__ against a reference database, and the __Paints Data Capture__.
 
 ### Reference & Search
 
@@ -26,7 +24,7 @@ Rotating to landcape, as shown below, makes it easier to read the full names. So
 
 ![All Portrait and Landscape](images/All_Port_and_LandView.jpg)
 
-The _Keywords Listing_ (first two screenshots below) allows users to search for keywords and associated references and/or mixes. The _Subjective Colors_ listing (third screenshot) categorizes colors into groups (similar to the _Color Wheel_). In this view, the elements of one or more groups can be revealed/hidden by clicking on the corresponding down/up arrow widgets (as shown below) or, alternatively, all groups can be revealed/hidden clicking on the arrow widget on the top Navigation Toolbar.
+The _Keywords Listing_ (first two screenshots below) allows users to search for keywords and find their associated references and/or mixes. The _Subjective Colors_ listing (third screenshot) categorizes colors into groups (similar to a _Color Wheel_). In this view, the elements of one or more groups can be revealed/hidden by clicking on the corresponding down/up arrow widgets (as shown below) or, alternatively, all groups can be revealed/hidden by clicking on the arrow widget on the top Navigation Toolbar.
 
 ![Keyw and Subj Views](images/Keyw_and_SubjViews.jpg)
 
@@ -34,7 +32,7 @@ All listings, with the exception of _Subjective Colors_ are alphabetized and inc
 
 ### Image Area(s) Match
 
-A new photo can be taken or and existing image used for the Image Match. The screenshots below show the general sequence for this type of data capture. More detailed examples of this functionalithy can be found __[here](ImageMatch.md)__.
+A new photo can be taken or and existing image used for the Image Match. The screenshots below show the general sequence of events for this type of data capture. More detailed examples of this functionalithy can be found __[here](ImageMatch.md)__.
 
 ![MatchViews](images/MatchViews.jpg)
 
@@ -62,6 +60,7 @@ This App does not store user or location information. Specific privacy settings 
 
 Though App has not been released, there are a number of new features that I am looking to implement as well as existing ones that I plan to revisit sometime down the road. Some of the main ones include:
 
+* __Continue Improving the Data Capture__
 * __Extend the Dataset__ by adding Paints and additional Keywords associations
 * Continue __Improving the Match Algorithms__ and perhaps even look into data derivation formulas
 * Consider __Deployment to Other Platforms and/or Device Types__
@@ -71,3 +70,6 @@ Though App has not been released, there are a number of new features that I am l
 * In some ways similar to the preceding point, __make it easy to share swatch data__
 
 For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
+
+_Note: Clicking on this ![RGButterfly Logo](images/RGButterfly_Logo.png) logo will get you back to this main page_.
+
