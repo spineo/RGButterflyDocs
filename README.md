@@ -2,7 +2,7 @@
 
 ## Overview
 
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this iPhone App is to suggest Acrylic paints associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints, paint mixes, and generic paint references. A key word is _attempt_
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this iPhone App is to suggest Acrylic paints associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints, paint mixes, and generic paint references. The key word is _attempt_
 as there is much variability in the process and the results obtained will often be far from what you might expect (please review the [__Reference Data and Methodology__](About.md) and [__Disclaimer__](Disclaimer.md) sections to learn more)
 
 The three main tasks this App performs are __Reference & Search__, __Image Area(s) Match__ against a reference database, and the __Paints Data Capture__.
