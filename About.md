@@ -8,7 +8,7 @@ The Paint Swatch Database is currently comprised of over 2,400 paint references 
 
 ![Sample Paint Swatches](images/ColorSheets.jpg)
 
-The paint was applied on acid-free, triple-primed white canvas paper in generally thick layers or _Thick_ as set in the "Canvas Coverage" property. Paint coverage might also be specified as _Thin_ or _Sparse_ (these latter two categories usually the result of using less paint and/or transparent or translucent paints)
+The paint was applied on acid-free, triple-primed white canvas paper in generally thick layers or _Thick_ as set in the "Canvas Coverage" property. Paint coverage might also be specified as _Medium_, _Thin_ or _Sparse_ (these latter three categories usually the result of using less paint and/or transparent or translucent paints)
 
 After the paint swatches sheets were created they were photographed. For lighting consistency, this was done with pre-dominantly artificial light, at the same time of day for each sheet, and in a way that eliminated reflection as much as possible (the photographic techniques did not involve any form of calibration or optical spectrometry). Photographed swatches were then entered manually using the app _Mix Association_ feature and the individual properties of each swatch set in the App _Paint Swatch Detail_ View (an example data capture session is shown __[here](DataCapture.md)__)
 
@@ -62,7 +62,7 @@ In the [_Additive_](https://en.m.wikipedia.org/wiki/Additive_color) Color Model 
 
 There are currently about 2,800 paint swatches (including type _GenericPaint_) captured yet the RGB color space has 16,777,216 combinations. Though that number is significantly smaller when taking into account human perception, those _perceived gaps_ still remain. The App still provides, in many cases, if not a reasonably accurate suggestion at least a starting point that may help the artist achieve a closer match through further mixing. The App also allows users to capture and catalog their own mixes, search the data and more importantly, create an indexed, searchable database of keyword associations (see [_Image Area(s) Match_](https://spineo.github.io/RGButterflyDocs/ImageMatch.html)).
 
-___Generic___ is a type of swatch that has been captured to help fill in these gaps. This category is not tied to a specific Paint Brand but is rather a generically _Named_ swatch tied to RGB (and [_Hex_](https://en.m.wikipedia.org/wiki/Web_colors)) values. While this category does not provide information about the Paints it might provide, in the absence of close paint matches, information about where in a [_Color Wheel_](https://en.m.wikipedia.org/wiki/Color_wheel) the reference area might fall.
+___Generic___ is a type of swatch that has been captured to help fill in these gaps. This category is not tied to a specific Paint Brand but is rather a generically _Named_ color tied to RGB (and [_Hex_](https://en.m.wikipedia.org/wiki/Web_colors)) values. While this category does not provide information about the Paints it might provide, in the absence of close paint matches, information about where in a [_Color Wheel_](https://en.m.wikipedia.org/wiki/Color_wheel) the reference area might fall.
 
 ### References
 
