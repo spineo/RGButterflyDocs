@@ -66,7 +66,7 @@ ___Generic___ is a type of swatch that has been captured to help fill in these g
 
 ### References
 
-* A _Generics_ source used in this App is included [_here_](https://web.njit.edu/~kevin/rgb.txt.html).
+* The main source for the _Generic\<Color\>_ (i.e., GenericBlue) associations used in this App is included [__here__](https://web.njit.edu/~kevin/rgb.txt.html).
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
 
