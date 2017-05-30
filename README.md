@@ -2,7 +2,7 @@
 
 ## Overview
 
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this iPhone App is to suggest Acrylic paints associated with tapped areas in a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints, paint mixes, and generic paint references. The key word is _attempt_
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this iPhone App is to suggest Acrylic paints associated with tapped areas on a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints, paint mixes, and generic paint references. The key word is _attempt_
 as there is much variability in the process and the results obtained will often be far from what you might expect (please review the [__About__](About.md) and [__Disclaimer__](Disclaimer.md) sections to learn more and, if your are interested in the software side of things, the [__Programming Considerations__](Programming.md) section)
 
 The three main tasks this App performs are __Reference & Search__, __Image Area(s) Match__ against a reference database, and the __Paints Data Capture__.
@@ -32,7 +32,7 @@ All listings, with the exception of _Subjective Colors_ are alphabetized and inc
 
 ### Image Area(s) Match
 
-A new photo can be taken or and existing image used for the Image Match. The screenshots below show the general sequence of events for this type of data capture. More detailed examples of this functionalithy can be found __[here](ImageMatch.md)__.
+A new photo can be taken or and existing image used for the Image Match. The screenshots below show the general sequence of events for this type of data capture. More detailed examples of this functionality can be found __[here](ImageMatch.md)__.
 
 ![MatchViews](images/MatchViews.jpg)
 
