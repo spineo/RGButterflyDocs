@@ -28,9 +28,9 @@ There are four cases of database updates with three of them enabled through _Set
 
 * The _Restore_ case allows the user to restore to the original database. Since this operation will discard user data added since the App installation or latest upgrade, a cautionary warning (with option to back out) is issued when first selecting the Settings option (screenshot 2) as well as prior to the actual restore operation (screenshot 3).
 
- * The _Version Driven Upgrade_ allows the user to upgrade to a later version provided one is available (The _Perform Check for Database Update_ switch must be turned on in order to poll the remote REST API).
+ * The _Version Driven Upgrade_ (screenshot 4 prompt) allows the user to upgrade to a later version provided one is available (The _Perform Check for Database Update_ switch must be turned on in order to poll the remote REST API).
  
- * The _Force Update_ (screenshot 4 prompt) allows the user to provision the latest version even if an upgrade is not detected (The _Update Even if Versions are Unchanged_ switch must be enabled for this option)
+ * The _Force Update_ (also screenshot 4 prompt) allows the user to provision the latest version even if an upgrade is not detected (The _Update Even if Versions are Unchanged_ switch must be enabled for this option)
  
  The version and force updates will be enabled for merging in the next release (the current operation is replacement) 
 
