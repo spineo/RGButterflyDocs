@@ -8,13 +8,17 @@ The App is currently implemented to execute on the ___iPhone 6, 6s, 6s Plus, 6 P
 
 ### Language
 
-Work started on this application back in 2014, shortly after I got into iOS development. Though Apple was just switching to the [_Swift_](https://developer.apple.com/swift/) programming language, I decided to continue implementing in [_Objective-C_](https://en.m.wikipedia.org/wiki/Objective-C) since, at the time, Swift was still relatively untested and provided fewer online resources. Fortunately Apple was expected to continue supporting Objective-C into the forseeable future and the Swift API allowed its libraries to be easily integrated into Objective-C applications making a gradual transition easier (I have since started going in this direction)
+Work started on this application back in 2014, shortly after I got into iOS development. Though Apple was just switching to the [_Swift_](https://developer.apple.com/swift/) programming language, I decided to continue implementing in [_Objective-C_](https://en.m.wikipedia.org/wiki/Objective-C) since, at the time, Swift was still relatively untested and provided fewer online resources. Fortunately Apple was expected to continue supporting Objective-C into the forseeable future and the Swift API allowed its libraries to be easily integrated into Objective-C applications making a gradual transition easier (I have since started going in this direction and the current apps I am working on use Swift)
 
 ### XCode IDE
 
 The experience of using XCode for App development has been largely positive and I have found this IDE to be superior to many of the others used in the past including Eclipse, IntelliJ, and Visual Studio. It took a while getting used to Objective-C and the many IDE abstractions (such as XCode _groups_ used to structure the project tree) especially coming from a Software Engineering background where much of my work was at the Linux OS level using scripting/interpretive languages.
 
 A couple of notes about XCode. It is better run on MacOS systems and is easier to use on a larger screen. That being said, while I prefer XCode development on my iMac it also works fine on my 13 inch MacBook Pro with a bit of juggling.
+
+### Development Environments
+
+As mentioned, most of my development involves switching between an iMac and MacBook Pro. The App Website (http://rgbutterfly.com) and Jenkins CI application (primarily used for database builds and the REST service) are hosted on Amazon AWS instances.
 
 ### GitHub Integration
 
