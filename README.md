@@ -2,37 +2,38 @@
 
 ## Overview
 
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this iPhone App is to suggest Acrylic paints associated with tapped areas on a photo. It does this by applying a selected _Match Algorithm_ against a database of reference paints, paint mixes, and generic paint references. The key word is _attempt_
-as there is much variability in the process and the results obtained will often be far from what you might expect (please review the [__About__](About.md) and [__Disclaimer__](Disclaimer.md) sections to learn more and, if your are interested in the software side of things, the [__Programming Considerations__](Programming.md) section)
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this iPhone App is to suggest matching paint colors for selected areas of a photo. It does this by applying a _Match Algorithm_ against a database of paint colors. The key word is _attempt_
+as there is much variability in the process and the results obtained may often be far from what you might expect (please review the [__About__](About.md) and [__Disclaimer__](Disclaimer.md) sections to learn more and, if your are interested in the technical side of things, the [__Programming Considerations__](Programming.md) section)
 
-The three main tasks this App performs are __Reference & Search__, __Image Area(s) Match__ against a reference database, and the __Paints Data Capture__.
+The three broad capabilities for the App are __Reference & Search__, __Paints Suggestion__, and __Paints Data Capture__.
 
 ### Reference & Search
 
-The Initial View allows a user to switch between the five types of displays (shown in the screenshots that follow):
-* __Color Associations__: An ordered list of collections each representing a _Mix, Coverage, or Generic Association_
-* __Match Associations__: An ordered list of collections each representing a _Match Association_
-* __Individual Colors__: An ordered list of individual colors (mainly reference and mix paint swatches)
-* __Keywords Listing__: An alphabetized list of keywords and their associated reference or paint mixes
-* __Subjective Colors__: A list of color categories and their associated reference or paint mixes
+The main view allows a user to switch between the five types of displays (shown in the screenshots that follow):
 
-For each of the associations (first two screenshots below), scrolling right to left exposes remaining elements of the collection view and clicking on any of the rows reveals the [__Association Detail__](Associations.md). For the [__Individual Colors__](Individual.md) listing (third screenshot), clicking on a row takes you directly to the [__Detailed View__](Detail.md) for that _Mix_ or _Reference_ swatch.
+* __Match Associations__ (default view): An alphabetized list of photo-area collections that are part of a common photograph (each area linked to a set of suggested matching paints)
+* __Color Associations__: An alphabetized list of color associations
+* __Individual Colors__: An alphabetized list of the individual colors that can be filtered by category
+* __Keywords Listing__: An alphabetized list of keywords and their associated paints colors
+* __Subjective Colors__: Colors grouped by color-wheel categories
+
+For a given association row (first two screenshots below), scrolling right to left exposes remaining elements of the collection and clicking on it reveals the [__ Association Detail View__](Associations.md). For the [__Individual Colors__](Individual.md) listing (third screenshot), clicking on a row takes you directly to the [__Swatch Detail View__](Detail.md).
 
 ![Assoc, Match, and All Views](images/Assoc_Match_and_AllViews.jpg)
 
-Rotating to landcape, as shown below, makes it easier to read the full names. Something especially useful for mixes, which use a longer display name that includes the two references and mix ratio.
+Rotating to landcape, as shown below, makes it easier to read the full names which is especially useful for _mix_ names.
 
 ![All Portrait and Landscape](images/All_Port_and_LandView.jpg)
 
-The _Keywords Listing_ (first two screenshots below) allows users to search for keywords and find their associated references and/or mixes. The _Subjective Colors_ listing (third screenshot) categorizes colors into groups (similar to a _Color Wheel_). In this view, the elements of one or more groups can be revealed/hidden by clicking on the corresponding down/up arrow widgets (as shown below) or, alternatively, all groups can be revealed/hidden by clicking on the arrow widget on the top Navigation Toolbar.
+The _Keywords Listing_ (first two screenshots below) provides a way to easily locate keyword-color associations. The _Subjective Colors_ listing (third screenshot) buckets colors into _Color Wheel_ groups. In this view, the elements of one or more groups can be revealed/hidden by clicking on the corresponding down/up arrow widgets.
 
 ![Keyw and Subj Views](images/Keyw_and_SubjViews.jpg)
 
-All listings, with the exception of _Subjective Colors_ are alphabetized and include the top-right magnifier __Search__ button (search rules are somewhat different for each type of listing). In addition, the _Individual Colors_ and _Keywords Listing_ also provide an __Alphabetical Index__ widget for quick access.
+All listings, with the exception of _Subjective Colors_ are alphabetized and include the top-right magnifier __Search__ button (search rules vary between listing). The _Individual Colors_ and _Keywords Listing_ views also provide an __Alphabetical Index__ widget for quick access.
 
-### Image Area(s) Match
+### Paints Suggestion
 
-A new photo can be taken or and existing image used for the Image Match. The screenshots below show the general sequence of events for this type of data capture. More detailed examples of this functionality can be found __[here](ImageMatch.md)__.
+A new photo or an existing one can be used by clicking on the top-left photo icon. The screenshots below show the general sequence of events for this type of capture. More detailed examples of this functionality can be found __[here](ImageMatch.md)__.
 
 ![MatchViews](images/MatchViews.jpg)
 
