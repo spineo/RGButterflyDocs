@@ -17,7 +17,7 @@ The main view allows a user to switch between the five types of displays (shown 
 * __Keywords Listing__: An alphabetized list of keywords and their associated paints colors
 * __Subjective Colors__: Colors grouped by color-wheel categories
 
-For a given association row (first two screenshots below), scrolling right to left exposes remaining elements of the collection and clicking on it reveals the [__ Association Detail View__](Associations.md). For the [__Individual Colors__](Individual.md) listing (third screenshot), clicking on a row takes you directly to the [__Swatch Detail View__](Detail.md).
+For a given association row (first two screenshots below), scrolling right to left exposes remaining elements of the collection and clicking on it reveals the [__Association Detail View__](Associations.md). For the [__Individual Colors__](Individual.md) listing (third screenshot), clicking on a row takes you directly to the [__Swatch Detail View__](Detail.md).
 
 ![Assoc, Match, and All Views](images/Assoc_Match_and_AllViews.jpg)
 
