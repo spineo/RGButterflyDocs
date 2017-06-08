@@ -40,18 +40,18 @@ A new photo or an existing one can be used by clicking on the top-left photo ico
 
 ### Paints Data Capture
 
-Photographed paint swatch areas can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. The _Add Color Mix_ feature (screenshots 2 & 3) allows users to add existing reference colors to the mix. A more detailed session used for this type of data capture can be found __[here](DataCapture.md)__.
+Photographed paint swatches can be tapped and integrated into a _Mix Association_ as shown in the screenshots below. The _Add Color Mix_ feature (screenshots 2 & 3) allows users to add existing reference colors to the mix. A more detailed example can be found __[here](DataCapture.md)__.
 
 ![DataCapture](images/ManualDataCapture.jpg)
 
 ### Settings
 
-The Settings Controller, accessible from the gear button (bottom right on most views), allows a number of global App customizations. Other "Non-Settings" features embedded in this controller include the _About this App_ and _Disclaimer_ pages, Links to the _Web Documentation_ (GitHub Pages), Email _Provide Feedback_ link, and documentation _Share_ buttons which enable distribution using any share-able App (such as Facebook, Twitter, Messenger, and Email) that user has access to. More on this controller, including screenshots, can be found [__here__](Settings.md). 
+The Settings view, accessible from the bottom-right gear button, enables global App customizations. Other features include the _About this App_ and _Disclaimer_ pages, links to the _Web Documentation_, a _Provide Feedback_ link, and _Share_ buttons (i.e., Facebook, Twitter, and so on). More about this view can be found [__here__](Settings.md). 
 
 
 ### Privacy, Access and Alerts
 
-This App does not store user or location information. Specific privacy settings must be enabled in order to access the Camera or Photo Library. Alerts cover a variety of use cases (though most alerts are informational). More content related to _Access and Alerts_ can be found __[here](AccessAndAlerts.md)__.  
+This App does not store user or location information. Specific privacy settings must be enabled in order to access the Camera or Photo Library. Alerts are issued under several conditions (though most are informational). More on _Access and Alerts_ can be found __[here](AccessAndAlerts.md)__.  
 
 ### Programming Considerations
 
@@ -59,11 +59,12 @@ This App does not store user or location information. Specific privacy settings 
 
 ### Future Directions
 
-Though App has not been released, there are a number of new features that I am looking to implement as well as existing ones that I plan to revisit sometime down the road. Some of the main ones include:
+Though App is pending release, there are a number of new features that I am looking to implement as well as existing ones that I plan to revisit for future releases (the initial build 10.1 (2) also has some of the functionality disabled). Enhancements include:
 
+* __Re-enable the Paints Data Capture and much of the editing functionality__
 * __Continue Improving the Data Capture__
 * __Extend the Dataset__ by adding Paints and additional Keywords associations
-* Continue __Improving the Match Algorithms__ and perhaps even look into data derivation formulas
+* __Revisit the Match Algorithms__ and perhaps even look into data derivation formulas
 * Consider __Deployment to Other Platforms and/or Device Types__
 * Address __Internationalization/Localization__ issues
 * __Improve Usability__ (covers things like improvements to the UI/Graphics and new User Settings, such as Fonts and Thumbnail sizes)
