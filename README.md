@@ -2,11 +2,20 @@
 
 ## Overview
 
-[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this App is to suggest matching paint colors for areas of a photo. To get started, click on either the ___Match Colors___ or ___Explore Colors___ titles on the main App view (screenshots below). On most views, a help button (bottom-right question icon) can be tapped to obtain usage tips.
+[![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this App is to suggest matching paint colors for areas of a photo. To get started, click on either the ___Match Colors___ or ___Explore Colors___ titles or sub-labels on the main App view to display the action buttons (screenshots below). Note also the question mark button (top right) which displays the _About_ page and gear button (bottom right) which takes you to the _Settings_ page. 
 
 ![Main View](images/home_page.jpg)
 
 Please review the [__About__](About.md), [__Disclaimer__](Disclaimer.md), and [__Credits__](Credits.md) pages for more background information about the App. For easier use, this initial release comes with a number of features and much of the editing functionality disabled.
+
+### Navigation, Help, Settings, and Edit Buttons
+
+Most secondary views, like the ones shown below consistently display the following buttons:
+* _Back Arrow_ (top left) gets you back to the previous view
+* _Home Icon_ (bottom left) gets you back to the main view
+* _Question Icon_ (bottom right) displays usage tips for that view
+* _Gear Icon_ (bottom right gear) takes you to the _Settings_ page (more on this later)
+* _Edit Text_ (top right) enables content editing where enabled
 
 ## Match Colors
 
@@ -25,6 +34,7 @@ Finally, as shown in screenshot 3, pressing (not tapping!) any of the row names 
 
 ## Explore Colors
 
+Each action provides a different a different categorization of the close to 3,600 colors and access to saved _Matches_ and _Favorites_.
 
 Please note: These modified docs are still a work in progress. For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
 
