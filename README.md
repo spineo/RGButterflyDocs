@@ -34,7 +34,19 @@ Finally, as shown in screenshot 3, pressing (not tapping!) any of the row names 
 
 ## Explore Colors
 
-Each action provides a different a different categorization of the close to 3,600 colors and access to saved _Matches_ and _Favorites_.
+Each action renders a different listing or categorization of the close to 3,600 colors as well as views of saved _Matches_ and _Favorites_. The listings include:
+
+* My Topics List: Over 500 topics and associated paint colors that the user can extend (or modify).
+
+* My Matched Colors: Matches the user creates as exemplified above (App already comes pre-loaded with a few examples).
+
+* All Colors & Favorites: The listing of almost 3,600 colors which can be filtered by the different types (i.e., Paint _References_, _Mixes_, and/or _Generic_ Colors). The special category _Favorites_ includes colors tagged by the user.
+
+* Mixes & Collections: The close to 500 collections all colors are part of. Most of the collections capture two-way mixes between paint colors while other collections, such as Generics, may be hue or color based.
+
+* My Color Groups: Color wheel like grouping of colors.
+
+In addition to groups or filters, most of these views provide a search and/or alphabetical index for easy filtering.
 
 Please note: These modified docs are still a work in progress. For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
 
