@@ -34,7 +34,7 @@ Finally, as shown in screenshot 3, pressing (not tapping!) any of the row names 
 
 ## Explore Colors
 
-Each action renders a different listing or categorization of the close to 3,600 colors as well as views of saved _Matches_ and _Favorites_. The image below contains a screenshot section of each. Listings include:
+Each action renders a different listing or categorization of the close to 3,600 colors as well as views of saved _Matches_ and _Favorites_. The image below contains a screenshot section of each listings type, which includes:
 
 * My Topics List: Over 500 topics and associated paint colors that the user can extend (or modify).
 
