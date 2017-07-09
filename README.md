@@ -34,7 +34,7 @@ Finally, as shown in screenshot 3, pressing (not tapping!) any of the row names 
 
 ## Explore Colors
 
-Each action renders a different listing or categorization of the close to 3,600 colors as well as views of saved _Matches_ and _Favorites_. The listings include:
+Each action renders a different listing or categorization of the close to 3,600 colors as well as views of saved _Matches_ and _Favorites_. The image below contains a screenshot section of each. Listings include:
 
 * My Topics List: Over 500 topics and associated paint colors that the user can extend (or modify).
 
@@ -47,6 +47,8 @@ Each action renders a different listing or categorization of the close to 3,600 
 * My Color Groups: Color wheel like grouping of colors.
 
 In addition to groups or filters, most of these views provide a search and/or alphabetical index for easy filtering.
+
+![Explore Colors Examples](images/explore_colors_examples.jpg)
 
 Please note: These modified docs are still a work in progress. For questions/comments about this App please email me at [svpineo@gmail.com](mailto:svpineo@gmail.com)
 
