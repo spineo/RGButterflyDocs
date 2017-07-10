@@ -28,7 +28,7 @@ As shown below, after an image is added (screenshot 1) user can perform the foll
 
 Clicking on any of the table rows will present a detailed tabular view for that matched area (screenshot 2). The header (first row) shows the tap area thumbnail image rendered using its RGB values and, to the right, the relevant sub-section of the photo for context. The remaining rows show the suggested paint references and/or mix RGB rendered thumbnails and names. Note that tapping any of the arrows below will circle to the next or previous tap area. Tapping the _Areas_ button will switch to _Match_ mode and instead allow user to circle between the _Match Methods_ that can be applied to any tap area.
 
-Finally, as shown in screenshot 3, pressing (not tapping!) any of the row names will color that full row as well as the top header with the RGB values allowing user to scroll and accurately compare swatches side-by-side. Note that tapping, instead of pressing, the row will take you to the detail view for that color.
+Finally, as shown in screenshot 3, pressing (not tapping!) any of the row names will color that full row as well as the top header with the RGB values allowing user to scroll and accurately compare swatches side-by-side. Note that tapping, instead of pressing, the row will take you to the [__detail__](Detail.md) view for that color.
 
 ![Color Match Process](images/plus_match_process.jpg)
 
@@ -40,7 +40,7 @@ Each action renders a different listing or categorization of the close to 3,600 
 
 * My Matched Colors: Matches the user creates as exemplified above (App already comes pre-loaded with a few examples).
 
-* All Colors & Favorites: The listing of almost 3,600 colors which can be filtered by the different types (i.e., Paint _References_, _Mixes_, and/or _Generic_ Colors). The special category _Favorites_ includes colors tagged by the user.
+* All Colors & Favorites: The listing of almost 3,600 colors which can be filtered by the different types (i.e., Paint [_References_](Detail.md), [_Mixes_](Detail.md), and/or [_Generic_](Detail.md) Colors). The special category _Favorites_ includes colors tagged by the user.
 
 * Mixes & Collections: The close to 500 collections all colors are part of. Most of the collections capture two-way mixes between paint colors while other collections, such as Generics, may be hue or color based.
 
