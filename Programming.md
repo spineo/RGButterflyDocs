@@ -1,4 +1,6 @@
 ## Programming Considerations
+
+__Note: Content in this document need to be update for this release.__
  
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) This section gives an overview of the program structure and development process.
 

@@ -1,5 +1,7 @@
 ## Paints Suggestion Examples
 
+__Note: Content (including screenshots) in this document need to be update for this release.__
+
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) The set of screenshots that follow show examples of the _Paints Suggestion_ functionality.
 
 The first step is to integrate an image. This can be initiated by clicking on the _photo_ icon top-left of the Main View (screenshot 1 below). Once the image (or photo taken) is selected it can be positioned in the _Match_ type (default) view that is part of the _Image View_ (screenshots 2 & 3).

@@ -1,4 +1,6 @@
 ## Settings
+
+__Note: Content (including screenshots) in this document need to be update for this release.__
  
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](https://spineo.github.io/RGButterflyDocs/) Global App customizations using the Settings controller include:
 
