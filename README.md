@@ -1,5 +1,7 @@
 # [RGButterflyDocs](http://rgbutterfly.com/)
 
+![App Store Screenshots](images/app_store_screenshots.jpg)
+
 ## Overview
 
 [![RGButterfly Logo](images/RGButterfly_Logo.png)](http://rgbutterfly.com) The main purpose of this App is to suggest matching paint colors for areas of a photo. To get started, click on either the ___Match Colors___ or ___Explore Colors___ titles or sub-labels on the main App view to display the action buttons (screenshots below). Note also the question mark button (top right) which displays the _About_ page and gear button (bottom right) which takes you to the _Settings_ page. 
