@@ -1,5 +1,3 @@
-# [RGButterflyDocs](http://rgbutterfly.com/)
-
 ![App Store Screenshots](images/app_store_screenshots.jpg)
 
 ## Overview
